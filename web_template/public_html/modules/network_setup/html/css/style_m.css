@@ -1,0 +1,73 @@
+hr {
+	border-top				: 1px dashed #C0C0C0;
+}
+
+#div_log_title {
+	padding-top				: 10px;
+	padding-bottom			: 10px;
+	font-weight				: bolder;
+	font-size				: 18px;
+}
+
+#div_contents {
+	padding					: 10px 10px 10px 10px;
+	font-size 				: 14px;
+}
+
+#div_contents_table {
+	margin-top 				: 10px;
+	width 					: 100%;
+	overflow 				: hidden;
+}
+
+.div_contents_cell {
+	width 					: 100%;
+	margin 					: 10px 0 20px 0;
+	float 					: left;
+}
+
+.div_contents_cell_line {
+	width 					: 100%;
+	border-top 				: 1px solid #cccccc;
+	float 					: left;
+	display 				: flex;
+	flex-direction			: column;
+}
+
+.div_contents_cell_title {
+	order 					: 1;
+	padding 				: 10px 0;
+	text-indent 			: 10px;
+	background 				: #eeeeee;
+	float 					: left;
+	display 				: flex;
+	align-items 			: center;
+	font-weight 			: bolder;
+	border-left				: 1px solid #cccccc;
+	border-right			: 1px solid #cccccc;
+}
+
+.div_contents_cell_category {
+	margin-top				: 10px;
+	order 					: 1;
+	padding 				: 10px 0;
+	text-indent 			: 10px;
+	background 				: #878787;
+	color 					: #ffffff;
+	float 					: left;
+	display 				: flex;
+	align-items 			: center;
+	font-weight 			: bolder;
+	border-left				: 1px solid #cccccc;
+	border-right			: 1px solid #cccccc;
+}
+
+.div_contents_cell_contents {
+	display 				: flex;
+	order 					: 2;
+	padding 				: 10px 0;
+	text-indent 			: 10px;
+	float 					: left;
+	border-left				: 1px solid #cccccc;
+	border-right			: 1px solid #cccccc;
+}

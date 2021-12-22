@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Kill Process
+process_check=`ps -ef | grep factoryReset | grep -v grep | grep -v dpkg | wc -l`
+if [ $process_check -gt 0 ]
+then
+	echo "Killing factoryReset process"
+	killall -9 factoryResetMonitor.sh
+	killall -9 factoryReset
+fi
+

@@ -1,0 +1,58 @@
+{
+    "tts_support_language": [
+        {
+            "kor": {
+                "name": "한국어",
+                "is_enable": true
+            }
+        },
+        {
+            "eng": {
+                "name": "English (United States)",
+                "is_enable": true
+            }
+        },
+        {
+            "ger": {
+                "name": "deutsch",
+                "is_enable": true
+            }
+        },
+        {
+            "bre": {
+                "name": "English (United Kingdom)",
+                "is_enable": true
+            }
+        },
+        {
+            "esp": {
+                "name": "Español",
+                "is_enable": true
+            }
+        },
+        {
+            "fre": {
+                "name": "français",
+                "is_enable": true
+            }
+        },
+        {
+            "rus": {
+                "name": "русский",
+                "is_enable": true
+            }
+        },
+        {
+            "jpn": {
+                "name": "日本語",
+                "is_enable": true
+            }
+        },
+        {
+            "chi": {
+                "name": "中文",
+                "is_enable": true
+            }
+        }
+    ]
+}

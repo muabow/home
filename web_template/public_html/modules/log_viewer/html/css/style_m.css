@@ -1,0 +1,141 @@
+hr {
+	border-top				: 1px dashed #C0C0C0;
+}
+
+#div_log_title {
+	padding-top				: 10px;
+	padding-bottom			: 10px;
+	font-weight				: bolder;
+	font-size				: 18px;
+}
+
+#div_contents_log_viewer {
+	padding					: 10px 10px 10px 10px;
+	font-size 				: 14px;
+}
+
+#div_contents_table {
+	margin-top 				: 10px;
+	width 					: 100%;
+	overflow 				: hidden;
+}
+
+.div_contents_cell {
+	width 					: 100%;
+	margin 					: 10px 0 20px 0;
+	float 					: left;
+}
+
+.div_contents_cell_line {
+	width 					: 100%;
+	border-top 				: 1px solid #cccccc;
+	float 					: left;
+	display 				: flex;
+	flex-direction			: column;
+}
+
+.div_contents_cell_title {
+	order 					: 1;
+	padding 				: 10px 0;
+	text-indent 			: 10px;
+	background 				: #eeeeee;
+	float 					: left;
+	display 				: flex;
+	align-items 			: center;
+	font-weight 			: bolder;
+	border-left				: 1px solid #cccccc;
+	border-right			: 1px solid #cccccc;
+}
+
+.div_contents_cell_contents {
+	display 				: flex;
+	order 					: 2;
+	padding 				: 10px 0;
+	text-indent 			: 10px;
+	float 					: left;
+	border-left				: 1px solid #cccccc;
+	border-right			: 1px solid #cccccc;
+}
+
+.div_button {
+	text-indent 			: 0;
+	background-color 		: #f2f2f2;
+	color 					: black;
+	border 					: 1px solid #aaaaaa;
+	text-align 				: center;
+	text-decoration 		: none;
+	display 				: inline-block;
+	cursor 					: pointer;
+	font-size 				: 12px;
+	width 					: 90px;
+	height 					: 23px;
+	line-height				: 23px;
+	border-radius			: 2px;
+	margin 					: 0 0 0 5px;
+	float 					: right;
+	transition-duration		: 0.4s;
+}
+
+.div_button_wrap {
+	padding 				: 0px 10px;
+	overflow 				: hidden;
+}
+
+#div_log_form_m {
+	margin-top				: 5px;
+	border					: 1px solid #C0C0C0;
+	height					: 400px;
+}
+
+.div_log_more {
+	height 					: 20px;
+	line-height				: 20px;
+	background 				: #E0E0E0;
+	border 					: 1px solid #7C7C7C;
+	margin 					: 2px 2px 2px 2px;
+	cursor 					: pointer;
+	text-align 				: center;
+	vertical-align			: middle;
+	font-size				: 14px;
+	font-weight				: bolder;
+}
+
+#div_log_frame {
+	overflow-x 				: scroll;
+	overflow-y 				: scroll;
+	height 					: 346px;
+	border 					: 1px solid #7c7c7c;
+	margin 					: 2px 2px 2px 2px;
+	font-size				: 14px;
+	padding 				: 0 5px;
+	white-space 			: nowrap;
+}
+
+#select_log_displayType {
+	width 					: 100%;
+}
+
+#select_log_displayLine {
+	display 				: none;
+}
+
+#select_log_updateMode {
+	display 				: none;
+}
+
+#select_log_updateTime {
+	display 				: none;
+}
+
+#select_log_scrollMode {
+	display 				: none;
+}
+
+#div_log_download {
+	display 				: none;
+}
+
+#div_log_banner {
+	width 					: 100%;
+	margin-top 				: 5px;
+}

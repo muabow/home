@@ -1,0 +1,395 @@
+hr {
+	border-top			: 1px dashed #C0C0C0;
+}
+
+#div_title {
+	padding-top			: 10px;
+	padding-bottom		: 10px;
+	font-weight			: bolder;
+	font-size			: 18px;
+}
+
+#div_contents {
+	padding				: 10px 10px 10px 10px;
+	font-size 			: 14px;
+}
+
+#div_contents_table {
+	margin-top 			: 10px;
+	width 				: 940px;
+	overflow 			: hidden;
+}
+
+.div_contents_cell {
+	margin 				: 10px 0 20px 0;
+	float 				: left;
+}
+
+.div_contents_cell_1 {
+	display 			: flex;
+	flex-direction 		: column;
+	#width 				: 920px;
+	margin-left 		: 0px;
+	margin 				: 10px 10px 20px 10px;
+}
+
+.div_contents_title {
+	padding 			: 10px 10px 3px 3px;
+	font-size 			: 15px;
+	font-weight 		: bolder;
+	border-bottom 		: 1px solid #cccccc;
+}
+
+.div_button {
+	background-color 	: #e7e7e7;
+	color 				: black;
+	border 				: 1px solid #aaaaaa;
+	text-align 			: center;
+	text-decoration 	: none;
+	display 			: inline-block;
+	cursor 				: pointer;
+	font-size 			: 12px;
+	width 				: 90px;
+	height 				: 23px;
+	line-height			: 23px;
+	border-radius		: 2px;
+	margin 				: 0 0 0 5px;
+	float 				: right;
+	transition-duration	: 0.4s;
+}
+
+.div_button:hover {
+	background-color 	: #7f7f7f;
+	color 				: white;
+}
+
+.div_contents_cell_line {
+	display 			: flex;
+	margin 				: 0px 10px 0px 10px;
+	width 				: 920px;
+	border-top 			: 1px solid #cccccc;
+	float 				: left;
+}
+
+.div_contents_cell_title {
+	order 				: 1;
+	display 			: flex;
+	align-items 		: center;
+	width 				: 250px;
+	padding 			: 10px 0 10px 10px;
+	margin 		 		: 0 10px 0 0;
+	background 			: #eeeeee;
+	float 				: left;
+	font-weight			: bolder;
+}
+
+.div_contents_cell_contents {
+	order 				: 2;
+	flex 				: 1;
+	padding 			: 10px 0 10px 0;
+	float 				: left;
+}
+
+.div_button_wrap {
+	padding 			: 5px 10px 5px 10px;
+	overflow 			: hidden;
+}
+
+.filebox_upload {
+	float:  			: left;
+}
+
+.filebox_upload input[type="file"] {
+	position 			: absolute;
+	width 	 			: 1px;
+	height 				: 1px;
+	padding 			: 0;
+	margin 				: -1px;
+	overflow 			: hidden;
+	clip 				: rect(0,0,0,0);
+	border 				: 0;
+}
+
+.filebox_upload label {
+	width				: 70px;
+	text-align			: center;
+	height				: 17px;
+	line-height 		: 17px;
+	display 			: inline-block;
+	padding 			: 9px 10px;
+	background-color 	: #e7e7e7;
+	color 				: black;
+	font-size 			: inherit;
+	line-height 		: normal;
+	vertical-align 		: middle;
+	cursor 				: pointer;
+	border 				: 1px solid #999;
+	border-radius 		: 5px;
+	transition-duration	: 0.4s;
+}
+
+.filebox_upload label:hover {
+	background-color 	: #7f7f7f;
+	color 				: white;
+}
+
+.filebox_upload .upload-name {
+	width				: 300px;
+	height				: 15px;
+	line-height 		: 15px;
+	display 			: inline-block;
+	padding 			: 10px 10px;	/* label의 패딩값과 일치 */
+	font-size			: inherit;
+	font-family			: inherit;
+	line-height			: normal;
+	vertical-align		: middle;
+	background-color 	: #ffffff;
+	border 				: 1px solid #999;
+	border-radius		: 5px;
+	-webkit-appearance 	: none;			/* 네이티브 외형 감추기 */
+	-moz-appearance 	: none;
+	appearance 			: none;
+}
+
+.container {
+	display 			: none;
+	width				: 150px;
+	float 				: left;
+	margin-left			: 10px;
+}
+
+.progress_outer {
+	border 				: 1px solid #999;
+	border-radius		: 5px;
+}
+
+.progress {
+	width 				: 0%;
+	background 			: linear-gradient(to left, #888, #eee);
+	height				: 35px;
+	line-height			: 35px;
+	border-radius		: 5px;
+	vertical-align		: middle;
+	text-align			: left;
+	color				: #5b5b54;
+	font-size			: 10px;
+	font-weight			: bolder;
+}
+
+.div_title_row {
+	display 			: flex;
+	height 				: 30px;
+	font-size 			: 10pt;
+	font-weight 		: bold;
+	background 			: #eeeeee;
+}
+
+.div_upload_avail_size_info {
+	text-align			: center;
+	font-size			: 12px;
+	display 			: inline-block;
+	font-weight 		: bold;
+	padding				: 0px 0px 0px 10px
+}
+
+.div_upload_avail_size_value {
+	text-align			: center;
+	font-size 			: 11px;
+	display 			: inline-block;
+}
+
+.monitor_play {
+	background 				: linear-gradient(#5da8dd, #1869a3);
+	color 					: white;
+}
+
+.div_title_number {
+	display 			: flex;
+	justify-content 	: center;
+	align-items 		: center;
+	border 				: 1px solid #bbbbbb;
+	border-right 		: 0;
+	min-width 			: 60px;
+	max-width 			: 60px;
+}
+
+.div_title_chime_name {
+	min-width 			: 650px;
+	max-width 			: 650px;
+	display 			: flex;
+	justify-content 	: center;
+	align-items 		: center;
+	border 				: 1px solid #bbbbbb;
+	border-right 		: 0;
+	padding 			: 0 3px;
+}
+
+.div_chime_name {
+	min-width 			: 620px;
+	max-width 			: 620px;
+	padding-right 		: 10px;
+	overflow			: hidden;
+	white-space 		: nowrap;
+}
+
+.div_title_play_time {
+	display 			: flex;
+	justify-content 	: center;
+	align-items 		: center;
+	border 				: 1px solid #bbbbbb;
+	border-right 		: 0;
+	min-width 			: 130px;
+	max-width 			: 130px;
+}
+
+.div_title_checkBox {
+	flex 				: 1;
+	display 			: flex;
+	justify-content 	: center;
+	align-items 		: center;
+	border 				: 1px solid #bbbbbb;
+}
+
+.div_title_row .div_title_checkBox {
+	margin-right 		: 17px;
+}
+
+.overflow_ellipsis {
+	text-overflow  		: ellipsis;
+}
+
+.chime_name_tooltip {
+	max-width 			: 500px;
+	position 			: absolute;
+	z-index 			: 250;
+	background 			: white;
+	border 				: 1px solid black;
+	padding 			: 3px;
+	display 			: flex;
+	justify-content 	: center;
+	align-items 		: center;
+}
+
+.chime_name_tooltip p {
+	max-width 			: 500px;
+	word-wrap			: break-word;
+	font-size 			: 10pt;
+}
+
+.div_row_wrap {
+	display  			: flex;
+	flex-direction 		: column;
+	height 				: 250px;
+	overflow-y 			: scroll;
+}
+
+.div_table_row {
+	display 			: flex;
+	min-height 			: 25px;
+	max-height 			: 25px;
+	font-size 			: 9pt;
+	background 			: white;
+	-webkit-user-select	: none;
+	-moz-user-select	: none;
+	-ms-user-select		: none;
+	user-select 		: none;
+}
+
+#div_content_table_chime_list {
+	display 			: flex;
+	flex-direction 		: column;
+}
+
+.div_chime_controller {
+	margin 				: 0px 10px 0px 10px;
+	height 				: 70px;
+	background 			: url("../img/control_panel.svg");
+	background-repeat 	: no-repeat;
+	background-size 	: 100%;
+	background-position : center center;
+	display 			: flex;
+	justify-content 	: center;
+	align-items 		: center;
+	position 			: relative;
+}
+
+.div_control_button_download {
+	margin 				: 0 5px;
+	cursor 				: pointer;
+	width 				: 40px;
+	height 				: 40px;
+	background 			: url("../img/control_download.svg");
+	background-repeat 	: no-repeat;
+	background-size 	: 100%;
+	background-position : center center;
+	position 			: absolute;
+	right 				: 85px;
+}
+
+.div_control_button_download:active {
+	margin 				: 0 5px;
+	cursor 				: pointer;
+	width 				: 40px;
+	height 				: 40px;
+	background 			: url("../img/control_download_reverse.svg");
+	background-repeat 	: no-repeat;
+	background-size 	: 100%;
+	background-position : center center;
+}
+
+.div_control_button_remove {
+	margin 				: 0 5px;
+	cursor 				: pointer;
+	width 				: 40px;
+	height 				: 40px;
+	background 			: url("../img/control_remove.svg");
+	background-repeat 	: no-repeat;
+	background-size 	: 100%;
+	background-position : center center;
+	position 			: absolute;
+	right 				: 40px;
+}
+
+.div_control_button_remove:active {
+	margin 				: 0 5px;
+	cursor 				: pointer;
+	width 				: 40px;
+	height 				: 40px;
+	background 			: url("../img/control_remove_reverse.svg");
+	background-repeat 	: no-repeat;
+	background-size 	: 100%;
+	background-position : center center;
+}
+
+.div_is_ext_storage_file {
+	min-width			: 20px;
+	max-width			: 20px;
+	height 				: 20px;
+	flex 				: 1;
+	margin-top 			: 5px;
+	margin-bottom		: 5px;
+	margin-right		: 5px;
+	display 			: flex;
+	justify-content 	: center;
+	align-items 		: center;
+	background 			: url("../img/media_ext_storage.png");
+	background-repeat 	: no-repeat;
+	background-size 	: 80% 100%;
+	background-position : center center;
+}
+
+.div_is_ext_storage_file_empty {
+	min-width			: 20px;
+	max-width			: 20px;
+	height 				: 20px;
+	flex 				: 1;
+	margin-top 			: 5px;
+	margin-bottom		: 5px;
+	margin-right		: 5px;
+	display 			: flex;
+	justify-content 	: center;
+	align-items 		: center;
+	background-repeat 	: no-repeat;
+	background-size 	: 80% 100%;
+	background-position : center center;
+}

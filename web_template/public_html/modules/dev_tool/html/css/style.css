@@ -1,0 +1,614 @@
+hr {
+	border-top				: 1px dashed #C0C0C0;
+}
+
+.title-hr {
+	border-top				: 1px dashed #C0C0C0;
+	width					: 910px;
+}
+
+#div_module_contents {
+	padding					: 10px 10px 10px 10px;
+}
+
+#div_module_title {
+	padding-top				: 10px;
+	padding-bottom			: 10px;
+	font-weight				: bolder;
+	font-size				: 18px;
+}
+
+#div_module_banner {
+	text-align 				: right;
+	margin-top 				: 10px;
+	font-size 				: 14px;
+	font-weight 			: bolder;
+	display 				: inline-block;
+}
+
+#select_tools {
+	width 					: 500px;
+	height 					: 30px;
+	line-height				: 30px;
+	font-size				: 15px;
+	font-weight				: bolder;
+	float					: left;
+	padding-left			: 10px;
+	margin-bottom			: 5px;
+}
+
+#div_module_form {
+	margin-top				: 5px;
+	border					: 1px solid #C0C0C0;
+	height					: 600px;
+}
+
+.div_module_frame {
+	overflow-x 				: hidden;
+	overflow-y 				: auto;
+	border 					: 1px solid #7c7c7c;
+	margin 					: 2px 2px 2px 2px;
+	font-size				: 14px;
+	padding-left			: 10px;
+	height					: 594px;
+	display 				: none;
+}
+
+.div_module_button {
+	background-color 		: #e7e7e7;
+	border 					: 1px solid #7c7c7c;
+	color 					: black;
+	text-align 				: center;
+	text-decoration 		: none;
+	display 				: inline-block;
+	cursor 					: pointer;
+	font-size 				: 12px;
+	width 					: 100px;
+	height 					: 30px;
+	line-height				: 30px;
+	border-radius			: 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration		: 0.4s;
+}
+
+.div_module_button:hover {
+	background-color 		: #7f7f7f;
+	color 					: white;
+}
+
+
+/* exec_system */
+#system-div_page_title_name {
+	padding-top				: 10px;
+	padding-bottom			: 10px;
+	font-weight				: bolder;
+	font-size				: 18px;
+}
+
+#system-div_contents_table {
+	margin-top 				: 10px;
+	width 					: 890px;
+	overflow 				: hidden;
+}
+
+.system-div_contents_cell {
+	margin 					: 10px 0 20px 0;
+	float 					: left;
+}
+
+.system-div_contents_title {
+	padding 				: 10px 10px 3px 3px;
+	font-size 				: 13pt;
+	font-weight 			: bolder;
+	border-bottom 			: 1px solid #cccccc;
+}
+
+.system-div_button {
+	background-color 		: #e7e7e7;
+	color 					: black;
+	border 					: 1px solid #aaaaaa;
+	text-align 				: center;
+	text-decoration 		: none;
+	display 				: block;
+	cursor 					: pointer;
+	font-size 				: 12px;
+	width 					: 90px;
+	height 					: 23px;
+	line-height				: 23px;
+	border-radius			: 2px;
+	margin 					: 0 0 0 5px;
+	float					: right;
+	transition-duration		: 0.4s;
+}
+
+.system-div_button:hover {
+	background-color 		: #7f7f7f;
+	color 					: white;
+}
+
+.system-div_contents_cell_line {
+	display 				: flex;
+	margin 					: 0px 10px 0px 10px;
+	width 					: 870px;
+	border-top 				: 1px solid #cccccc;
+	float 					: left;
+}
+
+.system-div_contents_cell_title {
+	display 				: flex;
+	align-items 			: center;
+	width 					: 220px;
+	padding 				: 10px 0 10px 10px;
+	margin 		 			: 0 10px 0 0;
+	background 				: #eeeeee;
+	float 					: left;
+	font-weight				: bolder;
+	font-size 				: 10pt;
+}
+
+.system-div_contents_cell_contents {
+	order 					: 2;
+	width 					: 630px;
+	padding 				: 10px 0 10px 0;
+	float 					: left;
+	display 				: flex;
+}
+
+.system-div_button_wrap {
+	padding 				: 5px 10px 5px 10px;
+	overflow 				: hidden;
+}
+
+.system-div_system_toggle {
+	width				: 80px;
+	height				: 25px;
+	border 				: 1px solid #666666;
+	border-radius		: 3px;
+	background 			: #aaaaaa;
+	cursor 				: pointer;
+}
+
+.system-span_system_check_on, .system-span_system_check_off {
+	width				: 40px;
+	height				: 25px;
+	line-height			: 25px;
+	float 				: left;
+	text-align 			: center;
+	font-weight 		: bolder;
+	font-size 			: 13px;
+	color 				: #ffffff;
+}
+
+.system-div_system_check_toggle {
+	/* position 			: absolute; */
+	width				: 38px;
+	height 				: 23px;
+	margin 				: 1px;
+	border-radius 		: 3px;
+	background 			: #ffffff;
+}
+
+.system-div_switch_back_on_off {
+	margin-left 		: 41px;
+}
+
+.system-div_switch_background {
+	background 			: #4CAF50;
+}
+
+.system-select_system_list {
+	width				: 150px;			/* 원하는 너비설정 */
+	background-size		: 5px;
+	padding 			: 0px 10px;		/* 여백으로 높이 설정 */
+	font-family 		: inherit;			/* 폰트 상속 */
+	background-size		: 30px;
+	border 				: 1px solid #999;
+	border-radius		: 0px;				/* iOS 둥근모서리 제거 */
+	margin-left 		: 10px;
+}
+
+select::-ms-expand {
+	display 			: none;
+}
+
+.system-textbox {
+	position 			: relative;
+}
+
+.system-textbox label {
+	position 			: absolute;
+	top 				: 1px; 			/* input 요소의 border-top 설정값 만큼 */
+	left 				: 1px;			/* input 요소의 border-left 설정값 만큼 */
+	padding 			: 6px 10px;		/* input 요소의 padding 값 만큼 */
+	color 				: #999;
+	cursor 				: text;
+	font-family 		: inherit;			/* 폰트 상속 */
+	font-size			: 12px;
+}
+
+.system-textbox input[type="text"] {
+	width				: 150px;		/* 원하는 너비 설정 */
+	height 				: 10px;			/* 높이값 초기화 */
+	line-height			: normal;		/* line-height 초기화 */
+	padding 			: 10px 10px;	/* 원하는 여백 설정, 상하단 여백으로 높이를 조절 */
+	font-family 		: inherit; 		/* 폰트 상속 */
+	border 				: 1px solid #999;
+	border-radius 		: 0; 			/* iSO 둥근모서리 제거 */
+	outline-style 		: none; 		/* 포커스시 발생하는 효과 제거를 원한다면 */
+	-webkit-appearance 	: none; 		/* 브라우저별 기본 스타일링 제거 */
+	-moz-appearance 	: none;
+	appearance 			: none;
+}
+
+.system-div_table {
+	flex 				: 1;
+	display 			: flex;
+	flex-direction 		: column;
+}
+
+.system-div_table_title {
+	display 			: flex;
+	background-color 	: #eeeeee;
+}
+
+.system-div_table_row {
+	display 			: flex;
+	border-top			: 1px solid #cccccc;
+    padding 			: 3px 0px;
+    height 				: 30px;
+    line-height 		: 30px;
+    text-align 			: center;
+    vertical-align 		: middle;
+    font-weight 		: bolder;
+    font-size 			: 12px;
+}
+
+.system-div_table_row:last-child {
+	border-bottom		: 1px solid #cccccc;
+}
+
+.system-div_enable_check {
+	min-width			: 100px;
+	max-width			: 100px;
+	display 			: flex;
+	align-items 		: center;
+	justify-content 	: center;
+	position 			: relative;
+}
+
+.system-div_file_name {
+	min-width			: 130px;
+	max-width			: 130px;
+}
+
+.system-div_language_name {
+	flex 				: 1;
+	display 			: flex;
+	align-items 		: center;
+	justify-content 	: center;
+	padding 			: 0px 5px;
+}
+
+.system-div_homepage {
+	flex 				: 1;
+	display 			: flex;
+	align-items 		: center;
+	justify-content 	: center;
+	padding 			: 0 5px;
+}
+
+.system-table_input_text {
+	flex 				: 1;
+	height 				: 100% !important;
+	padding-left 		: 10px;
+}
+
+.system-div_button_blur {
+	width 				: 100%;
+	height 				: 100%;
+	background 			: rgba(255, 255, 255, 0.6);
+	position 			: absolute;
+	z-index 			: 100;
+}
+
+.system-div_table_content {
+	user-select  	 	: none;
+}
+
+
+/* create_user */
+#user-div_page_title_name {
+	padding-top			: 10px;
+	padding-bottom		: 10px;
+	font-weight			: bolder;
+	font-size			: 18px;
+}
+
+#user-div_contents_table {
+	display 			: flex;
+}
+
+.user-div_table_content_inner {
+	height 				: 200px;
+	margin 				: 10px 10px 0px 10px;
+}
+
+
+/* module_info */
+.info-div_common_module_title {
+	width 				: 140px;
+	position 			: relative;
+	overflow			: hidden;
+	text-overflow		: ellipsis;
+	white-space 		: nowrap;
+	text-align			: center;
+}
+
+.info-div_common_module {
+	width 				: 120px;
+	position 			: relative;
+	padding-left 		: 20px;
+	overflow			: hidden;
+	text-overflow		: ellipsis;
+	white-space 		: nowrap;
+	text-align			: left;
+}
+
+.info-div_file_division {
+	min-width			: 60px;
+	max-width			: 60px;
+	padding 			: 0 5px;
+}
+
+.info-div_version {
+	min-width			: 60px;
+	max-width			: 60px;
+	display 			: flex;
+	align-items 		: center;
+	justify-content 	: center;
+	padding 			: 0px 5px;
+}
+
+.info-div_revision {
+	min-width			: 70px;
+	max-width			: 70px;
+	display 			: flex;
+	align-items 		: center;
+	justify-content 	: center;
+	padding 			: 0px 5px;
+}
+
+.info-div_homepage_title {
+	width				: 520px;
+	overflow			: hidden;
+	text-overflow		: ellipsis;
+	white-space 		: nowrap;
+	text-align			: center;
+}
+
+.info-div_homepage {
+	width				: 500px;
+	overflow			: hidden;
+	text-overflow		: ellipsis;
+	white-space 		: nowrap;
+	text-align			: left;
+	padding-left		: 20px;
+}
+
+.info-div_common_module_list_info {
+	display 			: flex;
+	padding 			: 3px 0px;
+    height 				: 30px;
+    line-height 		: 30px;
+    text-align 			: center;
+    vertical-align 		: middle;
+    font-size 			: 12px;
+    border-bottom		: 1px solid #cccccc;
+}
+
+.info-div_content_sort {
+	justify-content 	: left;
+}
+
+.info-div_noDataInfo_sort {
+	justify-content 	: center;
+}
+
+#info-div_contents_table {
+	display 			: flex;
+}
+
+.info-div_table_content_inner {
+	height 				: 200px;
+	margin 				: 10px 10px 0px 10px;
+}
+
+.info-div_table {
+	flex 				: 1;
+	display 			: flex;
+	flex-direction 		: column;
+	border-top 			: 1px solid #cccccc;
+	border-bottom		: 1px solid #cccccc;
+}
+
+.info-div_table_title {
+	display 			: flex;
+	background-color 	: #eeeeee;
+}
+
+.info-div_table_row {
+	display 			: flex;
+    padding 			: 3px 0px;
+    height 				: 30px;
+    line-height 		: 30px;
+    text-align 			: center;
+    vertical-align 		: middle;
+    font-weight 		: bold;
+    font-size 			: 12px;
+}
+
+#info-div_page_title_name {
+	padding-top			: 10px;
+	padding-bottom		: 10px;
+	font-weight			: bolder;
+	font-size			: 18px;
+}
+
+
+/* module_perm */
+#perm-div_page_title_name {
+	padding-top			: 10px;
+	padding-bottom		: 10px;
+	font-weight			: bolder;
+	font-size			: 18px;
+}
+
+#perm-div_contents_table {
+	display 			: flex;
+}
+
+.perm-div_table_content_inner {
+	height 				: 200px;
+	margin 				: 10px 10px 0px 10px;
+}
+
+
+/* web_shell */
+#shell-div_log_input {
+	display 				: flex;
+	margin-top				: 5px;
+	margin-right			: 10px;
+	border					: 1px solid #C0C0C0;
+	height					: 20px;
+	padding 				: 5px;
+}
+
+#shell-div_history_form {
+	margin-top				: 5px;
+	margin-right			: 10px;
+	border					: 1px solid #C0C0C0;
+	height					: 100px;
+}
+
+#shell-div_history_frame {
+	overflow-x 				: hidden;
+	overflow-y 				: auto;
+	height					: 94px;
+	border 					: 1px solid #7c7c7c;
+	margin 					: 2px 2px 2px 2px;
+	font-size				: 14px;
+	padding-left			: 10px;
+}
+
+#shell-div_page_title_name {
+	padding-top				: 10px;
+	padding-bottom			: 10px;
+	font-weight				: bolder;
+	font-size				: 18px;
+}
+
+#shell-div_form {
+	margin-top				: 5px;
+	margin-right			: 10px;
+	border					: 1px solid #C0C0C0;
+	height					: 350px;
+}
+
+#shell-div_header_frame {
+	overflow-x 				: hidden;
+	overflow-y 				: auto;
+	height 					: 24px;
+	border 					: 1px solid #7c7c7c;
+	margin 					: 2px 2px 2px 2px;
+	font-size				: 14px;
+	padding-left			: 10px;
+	display 				: flex;
+	align-items				: center;
+}
+
+#shell-div_frame {
+	overflow-x 				: hidden;
+	overflow-y 				: auto;
+	height 					: 316px;
+	border 					: 1px solid #7c7c7c;
+	margin 					: 2px 2px 2px 2px;
+	font-size				: 14px;
+	padding-left			: 10px;
+}
+
+#shell-input_exec {
+	flex 					: 1 1 0;
+}
+
+
+/* exec_system */
+#system-info-div_page_title_name {
+	padding-top				: 10px;
+	padding-bottom			: 10px;
+	font-weight				: bolder;
+	font-size				: 18px;
+}
+
+#system-info-div_page_sub_title {
+	font-weight				: bolder;
+	font-size				: 14px;
+	padding-bottom			: 5px;
+}
+
+#system-info-div_contents_table {
+	display 				: flex;
+	margin-top 				: 10px;
+	width 					: 890px;
+	overflow 				: hidden;
+}
+
+.system-info-div_contents_cell {
+	flex 					: 1;
+	margin 					: 10px 0 20px 0;
+	float 					: left;
+	overflow				: hidden;
+	display 				: flex;
+}
+
+.system-info-div_contents_title {
+	padding 				: 10px 10px 3px 3px;
+	font-size 				: 13pt;
+	font-weight 			: bolder;
+	border-bottom 			: 1px solid #cccccc;
+}
+
+.system-info-div_contents_cell_line {
+	flex 					: 1;
+	display 				: flex;
+	margin 					: 0px 10px 0px 10px;
+	border-top 				: 1px solid #cccccc;
+	float 					: left;
+	overflow 				: hidden;
+}
+
+.system-info-div_contents_cell_line:last-child {
+	border-bottom 			: 1px solid #cccccc;
+}
+
+.system-info-div_contents_cell_title {
+	display 				: flex;
+	align-items 			: center;
+	min-width 				: 220px;
+	max-width 				: 220px;
+	padding 				: 10px 0 10px 10px;
+	margin 		 			: 0 10px 0 0;
+	background 				: #eeeeee;
+	float 					: left;
+	font-weight				: bolder;
+	font-size 				: 10pt;
+}
+
+.system-info-div_contents_cell_contents {
+	order 					: 2;
+	flex 					: 1;
+	padding 				: 10px 0 10px 0;
+	float 					: left;
+	display 				: flex;
+	word-break 				: break-all;
+	font-size 				: 12px;
+}

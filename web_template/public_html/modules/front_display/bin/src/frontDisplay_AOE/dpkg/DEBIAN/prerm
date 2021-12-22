@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Kill Process
+process_check=`ps -ef | grep frontDisplay | grep -v grep | grep -v dpkg | wc -l`
+if [ $process_check -gt 0 ]
+then
+	echo "Killing frontDisplay process"
+	killall -9 frontDisplay
+fi
+

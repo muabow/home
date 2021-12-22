@@ -1,0 +1,15 @@
+{
+	"is_ext_use": false,
+	"ext_info": {
+		"target_dir": "/dev",
+		"dev_name"  : "mmcblk0p1"
+	},
+	"mnt_info": {
+		"target_dir": "/ext_storage",
+		"sub_dir_list" : {
+			"source_file": "/data/source",
+			"chime_file": "/data/chime",
+			"tts_file": "/data/tts"
+		}
+	}
+}

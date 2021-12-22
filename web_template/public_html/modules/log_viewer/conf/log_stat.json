@@ -1,0 +1,7 @@
+{
+    "module": "common/system",
+    "line": "100",
+    "update": "enabled",
+    "scroll": "manual",
+    "time": "1000"
+}

@@ -1,0 +1,423 @@
+/* Common */
+html, body {
+	margin  		: 0px 0px 0px 0px;
+	height  		: 100%;
+	overflow		: visible;
+}
+* {
+	font-family		: Verdana;
+	padding			: 0px 0px 0px 0px;
+	margin			: 0px 0px 0px 0px;
+}
+
+/* Common - Frame  */
+#div_frame {
+	width			: 100%;
+	height			: 100%;
+}
+
+/* Common - Header */
+#div_header {
+	width			: 100%;
+	height 			: 45px;
+	background		: #2f312e;
+}
+#div_header_top {
+	background		: #2f312e;
+	height			: 40px;
+	line-height		: 40px;
+	width			: 100%;
+	margin			: auto;
+}
+
+#img_header_ci {
+	position 		: absolute;
+	height			: 45px;
+	max-width		: 150px;
+}
+
+#div_header_name {
+	width			: 100%;
+	text-align		: center;
+	color 			: white;
+    font-weight		: bold;
+    font-size		: 24pt;
+    height 			: 45px;
+	background: -moz-linear-gradient(top, #545454 1%, #444444 20%, #212121 40%, #212121 60%, #444444 80%, #545454 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #545454 1%,#444444 20%,#212121 40%,#212121 60%,#444444 80%,#545454 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #545454 1%,#444444 20%,#212121 40%,#212121 60%,#444444 80%,#545454 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545454', endColorstr='#545454',GradientType=0 ); /* IE6-9 */
+}
+
+#span_header_name {
+	display 		: inline-block;
+	cursor			: pointer;
+	margin 			: 0 auto;
+	font-size		: 12pt;
+}
+
+#div_header_user {
+	border			: 0px 0px 0px 0px;
+	display 		: none;
+	height			: 45px;
+	line-height		: 45px;
+	float			: right;
+	text-align		: right;
+	color 			: white;
+	margin-left		: 0px;
+    font-weight		: bold;
+}
+
+#span_header_user, .span_header_user  {
+	height			: 30px;
+	line-height		: 30px;
+	vertical-align	: bottom;
+	display 		: none;
+}
+.img_icon_banner {
+	width			: 18px;
+	height			: 18px;
+	vertical-align	: bottom;
+	padding-bottom  : 5px;
+	cursor 			: pointer;
+}
+
+#img_banner_logout{
+	position 		: absolute;
+	height 			: 20px;
+	width 			: 20px;
+	right 			: 1%;
+	top 			: 15px;
+}
+
+/* Common - Banner */
+#div_banner {
+	width			: 100%;
+	margin			: auto;
+	margin-top		: 2px;
+	background		: #e0e0e0;
+}
+#div_banner_contents {
+	text-align 		: center;
+	width			: 100%;
+	background		: #e0e0e0;
+	font-size		: 9pt;
+	font-weight		: bold;
+	color			: #5b5b54;
+	white-space 	: normal;
+	padding-top		: 3px;
+	padding-bottom	: 3px;
+}
+
+#span_banner_hostname,
+#span_banner_location,
+#span_banner_ipAddr,
+#span_banner_version {
+	height 			: 20px;
+	line-height		: 20px;
+	text-align 		: center;
+	white-space 	: nowrap;
+}
+
+#span_banner_ipAddr,
+#span_banner_version {
+	display 		: none;
+}
+
+/* Common - Main   */
+#div_main {
+	width			: 100%;
+	margin			: 0 auto;
+	padding-top		: 2px;
+}
+#div_main_menu {
+	border-color	: #e7e7e7;
+	border-style	: solid;
+	border-top		: 2px;
+	border-bottom 	: 1px;
+	border-left 	: 0;
+	border-right 	: 0;
+	width			: 100%;
+	float			: left;
+	margin-right	: 3px;
+}
+.div_main_menu_category {
+	height			: 30px;
+	line-height		: 30px;
+	width 			: 100%;
+	background 		: #E6E6E6;
+	vertical-align	: middle;
+	font-weight		: bolder;
+	font-size		: 14px;
+	display			: block;
+	float 			: left;
+}
+.span_main_menu_category {
+	padding-left	: 10px;
+}
+
+.div_main_menu_sub {
+	height 			: 25px;
+	line-height		: 25px;
+	width			: 100%;
+	float 			: left;
+	vertical-align	: middle;
+	font-size		: 12px;
+	border-color	: #e7e7e7;
+	border-style	: solid;
+	border-width	: 0px 0px 1px 0px;
+	font-weight		: normal;
+}
+.span_main_menu_sub {
+	padding-left	: 20px;
+}
+#div_main_contents {
+	border-color	: #e7e7e7;
+	border-style	: solid;
+	border-top		: 2px;
+	border-bottom 	: 1px;
+	border-left 	: 0;
+	border-right 	: 0;
+	width			: 100%;
+	float			: left;
+}
+#div_main_login {
+	width			: 100%;
+	float			: left;
+	background-image: url("/img/background_login.png");
+}
+#div_main_login_form {
+	background 		: #fdfdfd;
+	width 			: 80%;
+	border 			: 1px solid #d2d2d2;
+	border-radius	: 5px;
+	margin 			: auto;
+	margin-top		: 40px;
+	text-align		: center;
+	vertical-align  : middle;
+	padding-bottom 	: 30px;
+}
+#span_login_form_title {
+	font-weight		: bolder;
+	font-size		: 24px;
+	color 			: #5b5b54;
+}
+.input_login_form {
+	border-radius   : 3px;
+	width			: 75%;
+	padding-left 	: 5%;
+	height			: 40px;
+	font-size		: 16px;
+	border-color	: #d2d2d2;
+	border-style	: solid;
+	border-width	: 1px 1px 1px 1px;
+	margin-bottom	: 5px;
+}
+#div_login_alert_form {
+	height			: 40px;
+}
+
+#div_login_alert {
+	border-radius   : 3px;
+	width			: 80%;
+	height			: 30px;
+	line-height		: 30px;
+	font-size		: 14px;
+	border-color	: #c15e5e;
+	border-style	: solid;
+	border-width	: 1px 1px 1px 1px;
+	margin-bottom	: 5px;
+	color			: #ce1414;
+	margin			: auto;
+	display			: none;
+}
+
+#div_login_form_submit {
+	background-color: #e7e7e7;
+	border 			: 1px solid #7c7c7c;
+	color 			: #5b5b54;
+	text-align 		: center;
+	text-decoration : none;
+	display 		: inline-block;
+	cursor 			: pointer;
+	font-size 		: 14px;
+	font-weight		: bolder;
+	width			: 80%;
+	height 			: 40px;
+	line-height		: 40px;
+	border-radius	: 2px;
+	-webkit-transition-duration	: 0.1s; /* Safari */
+	transition-duration			: 0.1s;
+	margin-top 		: 15px;
+}
+
+#div_after_form_submit,
+#div_password_form_submit {
+	background-color: #e7e7e7;
+	border 			: 1px solid #7c7c7c;
+	color 			: #5b5b54;
+	text-align 		: center;
+	text-decoration : none;
+	display 		: inline-block;
+	cursor 			: pointer;
+	font-size 		: 14px;
+	font-weight		: bolder;
+	width			: 80%;
+	height 			: 40px;
+	line-height		: 40px;
+	border-radius	: 2px;
+	-webkit-transition-duration	: 0.1s; /* Safari */
+	transition-duration			: 0.1s;
+	margin-top 		: 15px;
+	margin-right 	: 5px;
+}
+
+#div_after_form_submit {
+	background-color: #7f7f7f;
+	color 			: white;
+}
+
+/* Common - Footer */
+#div_footer {
+	float 			: left;
+	width			: 100%;
+	height			: 40px;
+	line-height		: 40px;
+	text-align		: center;
+	vertical-align	: middle;
+	margin			: auto;
+    font-size		: 9pt;
+    color			: #4c4b51;
+}
+#div_footer_shell {
+	margin 			: auto;
+}
+#span_footer_language {
+	height			: 28px;
+	line-height		: 28px;
+	vertical-align	: bottom;
+	font-weight		: bold;
+	color			: black;
+	cursor 			: pointer;
+}
+#div_footer_language_list {
+	border 			: 1px dotted silver;
+	width			: 100%;
+	height			: 20px;
+	margin-left		: auto;
+	margin-right	: auto;
+	padding-bottom  : 20px;
+	display			: none;
+}
+#span_footer_language:visited {
+    color			: #000000;
+}
+#span_footer_language:link {
+    color			: #000000;
+}
+#span_footer_language:active {
+    text-decoration	: none;
+}
+.copyright_link {
+	font-weight		: bold;
+	text-decoration	: none;
+}
+.copyright_link:visited {
+    color			: #000000;
+    text-decoration	: none;
+}
+.copyright_link:link {
+    color			: #000000;
+}
+.copyright_link:active {
+    text-decoration	: none;
+}
+.a_footer_language_list {
+	cursor 			: pointer;
+}
+
+.div_main_menu_viewer {
+	padding 		: 5px 20px 5px 20px;
+	overflow 		: hidden;
+	border-bottom	: 1px solid #e7e7e7;
+}
+
+.span_main_menu_view_title{
+	height 			: 20px;
+	line-height		: 20px;
+	width			: 100%;
+	float 			: left;
+	vertical-align	: middle;
+	font-size		: 13px;
+	font-weight		: bolder;
+}
+
+.span_main_menu_view{
+	height 			: 20px;
+	width			: 100%;
+	float 			: left;
+	vertical-align	: middle;
+	font-size		: 12px;
+	font-weight		: normal;
+}
+
+#div_footer_pc_view {
+	height 			: 30px;
+	line-height 	: 35px;
+	font-weight 	: bolder;
+}
+
+#dialog-confirm {
+	display 		: none;
+	text-align 		: center;
+	font-size 		: 15px;
+	min-height 		: 25px !important;
+}
+
+.ui-button {
+	background-color: #e7e7e7 !important;
+	color 			: #5b5b54 !important;
+	font-weight		: bolder !important;
+	font-size 		: 14px !important;
+	border 			: 1px solid #7c7c7c !important;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+	padding 		: 0 !important;
+}
+
+.ui-dialog-buttonset {
+	margin 			: 0 auto !important;
+	float 			: none !important;
+	display 		: flex;
+	justify-content : center;
+}
+
+.ui-dialog-buttonset .ui-button:last-child {
+	margin-left 	: 5px !important;
+	margin-right 	: 0px !important;
+}
+
+.ui-dialog-buttonset .ui-button:last-child {
+	background-color: #7f7f7f !important;
+	color 			: white !important;
+}
+
+#div_auto_login_checkbox {
+	display 		: inline-block;
+    text-align 		: center;
+    font-size		: 13px;
+    font-weight		: bolder;
+    height			: 30px;
+    line-height		: 30px;
+    margin-top		: 7px;
+    color 			: #5b5b54;
+}
+.checkbox {
+	cursor 			: pointer;
+	padding-left 	: 3px;
+}
+
+input[type=checkbox] {
+ 	transform 		: scale(1.3);
+}

@@ -1,0 +1,13 @@
+{
+	"description" :	[
+		"Listener 에서 각자 필요한 것 사용",
+		"message_id : 메세지ID, 다국어지원 등을 위해 정의",
+		"message : 메세지",
+		"led_pattern : [On, Off, On, Off, On, Off, ...,  0(종료) / -1(반복) / -2(복귀)]"
+	],
+	"message_id" : "NOTI_DEFAULT",
+	"message" : "초기화",
+	"led_pattern": [
+		 -1
+	]
+}

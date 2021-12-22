@@ -1,0 +1,37 @@
+#!/bin/bash
+
+export LD_LIBRARY_PATH=/opt/interm/usr/lib
+
+# Decrease TIME_WAIT seconds
+echo 3 > /proc/sys/net/ipv4/tcp_fin_timeout
+echo 1 > /proc/sys/net/ipv4/tcp_tw_recycle
+
+# Recycle and Reuse TIME_WAIT sockets faster
+echo 1 > /proc/sys/net/ipv4/tcp_tw_reuse
+
+
+# Web template
+/opt/interm/bin/scripts/web_pipe_monitor.sh &
+/opt/interm/bin/scripts/ws_router_monitor.sh &
+/opt/interm/bin/scripts/haproxy_monitor.sh &
+/opt/interm/bin/scripts/log_write_interface_monitor.sh &
+/opt/interm/bin/scripts/sqlite_interface_monitor.sh &
+/opt/interm/bin/scripts/api_io_interface_monitor.sh &
+/opt/interm/bin/scripts/sess_if_monitor.sh &
+/opt/interm/bin/scripts/ws_priority_monitor.sh & 
+/opt/interm/bin/scripts/snd_interface_monitor.sh & 
+/opt/interm/bin/scripts/sm_interface_monitor.sh & 
+
+arc=`lscpu | grep Architecture | grep arm | wc -l`
+if [ $arc -ge 1 ]; then
+	# ARM type
+	/opt/interm/bin/scripts/mute_relay_interface_monitor.sh &
+fi
+
+# run modules init
+/usr/bin/php /opt/interm/bin/exec_module_init.php
+
+if [ $arc -ge 1 ]; then
+	# ARM type
+	/opt/interm/bin/scripts/avms_monitor.sh &
+fi

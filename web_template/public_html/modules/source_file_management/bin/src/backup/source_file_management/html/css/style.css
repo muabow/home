@@ -1,0 +1,751 @@
+hr {
+	border-top				: 1px dashed #C0C0C0;
+}
+
+::-webkit-input-placeholder {
+	font-size : 5px;
+	font-weight : bolder;
+	vertical-align : middle;
+}
+
+#div_log_title {
+	padding-top				: 10px;
+	padding-bottom			: 10px;
+	font-weight				: bolder;
+	font-size				: 18px;
+}
+
+#div_contents {
+	padding					: 10px 10px 10px 10px;
+	font-size 				: 14px;
+}
+
+#div_contents_table {
+	margin-top 				: 10px;
+	width 					: 940px;
+	overflow 				: hidden;
+}
+
+.div_contents_cell {
+	margin 					: 10px 0 20px 0;
+	float 					: left;
+}
+
+.div_contents_cell_1 {
+	display : flex;
+	flex-direction: column;
+	#width 					: 920px;
+	margin-left 			: 0px;
+	margin 				: 10px 10px 20px 10px;
+}
+
+.div_contents_title {
+	padding 				: 10px 10px 3px 3px;
+	font-size 				: 15px;
+	font-weight 			: bolder;
+	border-bottom 			: 1px solid #cccccc;
+}
+
+INPUT[type=text] {
+	vertical-align 			: 1px;
+    font-size 				: 12px;
+    height 					: 16px;
+    padding 				: 0 10px 0 10px;
+}
+
+INPUT[type=password] {
+    font-size 				: 12px;
+    height 					: 16px;
+    padding 				: 0 10px 0 10px;
+}
+
+.div_button {
+	background-color 		: #e7e7e7;
+	color 					: black;
+	border 					: 1px solid #aaaaaa;
+	text-align 				: center;
+	text-decoration 		: none;
+	display 				: inline-block;
+	cursor 					: pointer;
+	font-size 				: 12px;
+	width 					: 90px;
+	height 					: 23px;
+	line-height				: 23px;
+	border-radius			: 2px;
+	margin 					: 0 0 0 5px;
+	float 					: right;
+	transition-duration		: 0.4s;
+}
+
+.div_button:hover {
+	background-color 		: #7f7f7f;
+	color 					: white;
+}
+
+.div_button_mini {
+	background-color 		: #e7e7e7;
+	color 					: black;
+	border 					: 1px solid #aaaaaa;
+	text-align 				: center;
+	text-decoration 		: none;
+	display 				: inline-block;
+	cursor 					: pointer;
+	font-size 				: 9px;
+	width 					: 50px;
+	height 					: 15px;
+	line-height				: 15px;
+	border-radius			: 2px;
+	margin 					: 0 0 0 5px;
+	float 					: right;
+	transition-duration		: 0.4s;
+}
+
+.div_contents_cell_line {
+	display 				: flex;
+	margin 					: 0px 10px 0px 10px;
+	width 					: 920px;
+	border-top 				: 1px solid #cccccc;
+	float 					: left;
+}
+
+.div_contents_cell_title {
+	order 					: 1;
+	display 				: flex;
+	align-items 			: center;
+	width 					: 250px;
+	padding 				: 10px 0 10px 10px;
+	margin 		 			: 0 10px 0 0;
+	background 				: #eeeeee;
+	float 					: left;
+	font-weight				: bolder;
+}
+.div_contents_run_cell_title {
+	order 					: 1;
+	width 					: 200px;
+	padding 				: 10px 0 10px 10px;
+	margin 		 			: 0 10px 0 0;
+	background 				: #eeeeee;
+	float 					: left;
+	display 				: flex;
+	align-items 			: center;
+	font-weight 			: bolder;
+}
+.div_contents_cell_contents {
+	order 					: 2;
+	width 					: 630px;
+	padding 				: 10px 0 10px 0;
+	float 					: left;
+}
+
+.div_button_wrap {
+	padding 				: 5px 10px 5px 10px;
+	overflow 				: hidden;
+}
+
+.div_systemCheckOperation {
+	width				: 80px;
+	height				: 25px;
+	border 				: 1px solid #666666;
+	border-radius		: 3px;
+	background 			: #aaaaaa;
+	cursor 				: pointer;
+}
+
+.span_systemCheckOn, .span_systemCheckOff {
+	width				: 40px;
+	height				: 25px;
+	line-height			: 25px;
+	float 				: left;
+	text-align 			: center;
+	font-weight 		: bolder;
+	font-size 			: 13px;
+	color 				: #ffffff;
+}
+
+.div_systemCheckToggle {
+	position 			: absolute;
+	width				: 38px;
+	height 				: 23px;
+	margin 				: 1px;
+	border-radius 		: 3px;
+	background 			: #ffffff;
+}
+
+.div_switchBackOnOff {
+	margin-left 		: 41px;
+}
+
+.div_switchBackground {
+	background 			: #4CAF50;
+}
+
+
+#select_accountList {
+	width				: 320px;			/* 원하는 너비설정 */
+	padding 			: 10px 10px;		/* 여백으로 높이 설정 */
+	font-family 		: inherit;			/* 폰트 상속 */
+	background 			: url("../img/select_arrow.jpg") no-repeat 95% 50%; /* 네이티브 화살표 대체 */
+	background-size		: 30px;
+	border 				: 1px solid #999;
+	border-radius		: 0px;				/* iOS 둥근모서리 제거 */
+	-webkit-appearance	: none;				/* 네이티브 외형 감추기 */
+	-moz-appearance		: none;
+	appearance			: none;
+}
+
+.select_systemCheck {
+	width				: 80px;			/* 원하는 너비설정 */
+	height				: 40px;
+	line-height			: 40px;
+	background 			: url("../img/select_arrow.jpg") no-repeat 95% 50%; /* 네이티브 화살표 대체 */
+	background-size		: 5px;
+	padding 			: 0px 10px;		/* 여백으로 높이 설정 */
+	font-family 		: inherit;			/* 폰트 상속 */
+	background-size		: 30px;
+	border 				: 1px solid #999;
+	border-radius		: 0px;				/* iOS 둥근모서리 제거 */
+	-webkit-appearance	: none;				/* 네이티브 외형 감추기 */
+	-moz-appearance		: none;
+	appearance			: none;
+}
+
+
+select::-ms-expand {
+	display 			: none;
+}
+
+.textbox {
+	position 			: relative;
+}
+
+.textbox label {
+	position 			: absolute;
+	top 				: 1px; 			/* input 요소의 border-top 설정값 만큼 */
+	left 				: 1px;			/* input 요소의 border-left 설정값 만큼 */
+	padding 			: 8px 10px;		/* input 요소의 padding 값 만큼 */
+	color 				: #999;
+	cursor 				: text;
+}
+
+.textbox input[type="text"], .textbox input[type="password"] {
+	width				: 298px;		/* 원하는 너비 설정 */
+	height 				: auto;			/* 높이값 초기화 */
+	line-height			: normal;		/* line-height 초기화 */
+	padding 			: 10px 10px;	/* 원하는 여백 설정, 상하단 여백으로 높이를 조절 */
+	font-family 		: inherit; 		/* 폰트 상속 */
+	border 				: 1px solid #999;
+	border-radius 		: 0; 			/* iSO 둥근모서리 제거 */
+	outline-style 		: none; 		/* 포커스시 발생하는 효과 제거를 원한다면 */
+	-webkit-appearance 	: none; 		/* 브라우저별 기본 스타일링 제거 */
+	-moz-appearance 	: none;
+	appearance 			: none;
+}
+
+.filebox_upgrade {
+	float:  			: left;
+}
+
+.filebox_upgrade input[type="file"] {
+	position 			: absolute;
+	width 	 			: 1px;
+	height 				: 1px;
+	padding 			: 0;
+	margin 				: -1px;
+	overflow 			: hidden;
+	clip 				: rect(0,0,0,0);
+	border 				: 0;
+}
+
+.filebox_upgrade label {
+	width				: 70px;
+	text-align			: center;
+	height				: 17px;
+	line-height 		: 17px;
+	display 			: inline-block;
+	padding 			: 9px 10px;
+	background-color 	: #e7e7e7;
+	color 				: black;
+	font-size 			: inherit;
+	line-height 		: normal;
+	vertical-align 		: middle;
+	cursor 				: pointer;
+	border 				: 1px solid #999;
+	border-radius 		: 5px;
+	transition-duration	: 0.4s;
+}
+
+.filebox_upgrade label:hover {
+	background-color 	: #7f7f7f;
+	color 				: white;
+}
+.filebox_upgrade .upload-name {
+	width				: 300px;
+	height				: 15px;
+	line-height 		: 15px;
+	display 			: inline-block;
+	padding 			: 10px 10px;	/* label의 패딩값과 일치 */
+	font-size			: inherit;
+	font-family			: inherit;
+	line-height			: normal;
+	vertical-align		: middle;
+	background-color 	: #ffffff;
+	border 				: 1px solid #999;
+	border-radius		: 5px;
+	-webkit-appearance 	: none;			/* 네이티브 외형 감추기 */
+	-moz-appearance 	: none;
+	appearance 			: none;
+}
+
+#div_uploadName {
+	float 				: left;
+	margin-right 		: 5px;
+}
+
+.container {
+	display 			: none;
+	width				: 150px;
+	float 				: left;
+	margin-left			: 10px;
+}
+.progress_outer {
+	border 				: 1px solid #999;
+	border-radius		: 5px;
+}
+
+.progress {
+	width 				: 0%;
+	background 			: linear-gradient(to left, #888, #eee);
+	height				: 35px;
+	line-height			: 35px;
+	border-radius		: 5px;
+	vertical-align		: middle;
+	text-align			: left;
+	color				: #5b5b54;
+	font-size			: 10px;
+	font-weight			: bolder;
+}
+
+.divTable{
+	display 				: table;
+	width 					: 920px;
+	margin-left 			: 0px;
+	margin 				: 0px 10px 0px 10px;
+}
+
+.divTableRow {
+	display 				: flex;
+}
+
+.divTableHeading {
+	background-color 		: #EEE;
+	display 				: table-header-group;
+}
+
+.divTableHead_left {
+	border 					: 1px solid #cccccc;
+	border-right			: 0px;
+	border-left 			: 0px;
+	#display 				: table-cell;
+	padding 				: 3px 10px;
+	background-color 		: #eeeeee;
+	height					: 24px;
+	line-height: 24px;
+	text-align 				: center;
+	vertical-align			: middle;
+	font-weight				: bolder;
+	font-size				: 12px;
+}
+
+.divTableHead {
+	border 					: 1px solid #cccccc;
+	border-right			: 0px;
+	#display 				: table-cell;
+	padding 				: 3px 10px;
+	background-color 		: #eeeeee;
+	height					: 24px;
+	line-height: 24px;
+	text-align 				: center;
+	vertical-align			: middle;
+	font-weight				: bolder;
+	font-size				: 12px;
+}
+
+.divTableCell {
+	border 					: 1px solid #cccccc;
+	border-top				: 0px;
+	border-right			: 0px;
+	#display 				: table-cell;
+	padding 				: 3px 10px;
+	height					: 18px;
+	line-height: 18px;
+	text-align 				: center;
+	vertical-align			: middle;
+	font-size				: 11px;
+}
+
+.divTableCell:nth-child(2),
+.divTableHead:nth-child(2) {
+	min-width : 40px;
+	max-width : 40px;
+}
+
+.divTableCell:nth-child(3),
+.divTableHead:nth-child(3) {
+	min-width : 500px;
+	max-width : 500px;
+}
+
+.divTableCell:nth-child(3) {
+	border-left: none;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow:hidden
+}
+
+.divTableCell:nth-child(4),
+.divTableHead:nth-child(4) {
+	min-width : 150px;
+	max-width : 150px;
+}
+
+.divTableCell:nth-child(4) {
+	display : flex;
+	align-items : center;
+	justify-content : center;
+}
+
+.divTableCell:nth-child(5) {
+	flex 		: 1;
+}
+
+.divTableHead_left,
+.divTableCell_left {
+	min-width : 85px;
+	max-width : 85px;
+}
+
+.divTableCell_left {
+	border 					: 1px solid #cccccc;
+	border-top				: 0px;
+	border-right			: 0px;
+	border-left 			: 0px;
+	#display 				: table-cell;
+	padding 				: 3px 10px;
+	height					: 18px;
+	line-height: 18px;
+	text-align 				: center;
+	vertical-align			: middle;
+	font-size				: 12px;
+}
+
+.divTableHeading {
+	background-color 		: #EEE;
+	display 				: table-header-group;
+	font-weight 			: bold;
+}
+
+.divTableFoot {
+	background-color 		: #EEE;
+	display 				: table-footer-group;
+	font-weight 			: bold;
+}
+
+.divTableBody {
+	display 				: table-row-group;
+}
+
+input[type="radio"], input[type="checkbox"] {
+	margin-top 				: 4px;
+}
+
+.monitor_play {
+	background 				: linear-gradient(#5da8dd, #1869a3);
+	color 					: white;
+}
+
+
+/* DSP control */
+.eqCol_outputVolume {
+    width: 612px;
+    margin: 10px 0 0 0;
+    float: left;
+    border: 1px solid #989898;
+}
+
+.eqItem_outputVolume {
+    height: 26px;
+    width: 68px;
+    float: right;
+    background: #000000;
+    margin: 0 0 0 0;
+    opacity: 0.2;
+}
+
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(10) {
+    background: #B7EB03;
+    display: none;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(9) {
+    background: #B7EB03;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(8) {
+    background: #B2E20C;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(7) {
+    background: #93D200;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(6) {
+    background: #7DC401;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(5) {
+    background: #4DB401;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(4) {
+    background: #B2E20C;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(3) {
+    background: #FFB400;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(2) {
+    background: #EE6002;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(1) {
+    background: #D52800;
+}
+
+.slider,
+.slidervertical {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+  z-index: 100;
+}
+/* slidershell exists only
+to provide a positioning context for the range input and other elements.*/
+
+.slidershell {
+  border: 0 none;
+  position: relative;
+  float: left;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+/* .slidertrack is the visible track on which the user drags the thumb button. */
+
+.slidertrack {
+  border: 1px outset #989898;
+  border-radius: 4px;
+  position: absolute;
+}
+/* .sliderfill adds color (or a gradient as seen here) to the track as the user
+    drags the thumb. */
+
+.sliderfill {
+  /*
+  border: 1px solid #00767f;
+  */
+  border-radius: 4px;
+  position: absolute;
+  opacity: 0.2;
+  pointer-events: none;
+  background: #00767f;
+  background: linear-gradient(90deg, #989898, #eeeeee);
+}
+/* .sliderthumb can be any css you like including an image.
+    The dimensions must match those found in the rule for
+    input[type=range]::-webkit-slider-thumb. */
+
+.sliderthumb {
+	width: 25px;
+	height: 40px;
+  /*
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/358203/thumb.png');
+	background-size: 40px 40px;
+	border: 0 none;
+	background-color: transparent;
+  */
+ 	background-color: white;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border: 2px solid grey;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	pointer-events: none;
+	border-radius: 10px;
+}
+/* .slidervalue can be styled as you see fit */
+
+.slidervalue {
+  width: 25px;
+  height: 40px;
+  line-height: 40px;
+  /*
+   color: #fff;
+   */
+  color: black;
+  font-family: helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border: 0 none;
+  padding: 0px;
+  margin: 1px 0px 0px 1px;
+  text-align: center;
+  pointer-events: none;
+}
+/* First we have to make transparent all the default elements of the range input.
+    We use color:transparent to eliminate the default tick marks in IE. */
+
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 100%;
+  -webkit-appearance: none;
+  margin: 0px;
+  padding: 0px;
+  border: 0 none;
+  background: transparent;
+  color: transparent;
+  overflow: visible;
+}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 100%;
+  -moz-appearance: none;
+  margin: 0px;
+  padding: 0px;
+  border: 0 none;
+  background: transparent;
+  color: transparent;
+  overflow: visible;
+}
+
+input[type=range] {
+  width: 100%;
+  height: 100%;
+  -webkit-appearance: none;
+  margin: 0px;
+  padding: 0px;
+  border: 0 none;
+  background: transparent;
+  color: transparent;
+  overflow: visible;
+}
+/* we need a separate rule for when the range input is to be vertical */
+
+input[type=range].slidervertical {
+  -webkit-appearance: slider-vertical;
+  writing-mode: bt-lr;
+  /* IE */
+
+  opacity: 0.01;
+  /* needed to hide the default slider-vertical appearance */
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: transparent;
+  border: transparent;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+/* Make the thumbs the same size as your custom sliderthumb.
+    they will not be visible but they will be draggable.    */
+
+input[type=range]::-ms-thumb {
+  width: 25px;
+  height: 40px;
+  border-radius: 0px;
+  border: 0 none;
+  background: transparent;
+}
+
+input[type=range]::-moz-range-thumb {
+  width: 25px;
+  height: 40px;
+  border-radius: 0px;
+  border: 0 none;
+  background: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  width: 25px;
+  height: 40px;
+  border-radius: 0px;
+  border: 0 none;
+  background: transparent;
+  -webkit-appearance: none;
+}
+/* microsoft IE10+ and Edge - eliminates default fills before and after thumb */
+
+input[type=range]::-ms-fill-lower {
+  background: transparent;
+  border: 0 none;
+}
+
+input[type=range]::-ms-fill-upper {
+  background: transparent;
+  border: 0 none;
+}
+
+input[type=range]::-ms-tooltip {
+  display: none;
+}
+
+.div_log_button {
+	background 		 		: #e7e7e7;
+	border 					: 1px solid #aaaaaa;
+	color 					: black;
+	text-align 				: center;
+	text-decoration 		: none;
+	display 				: inline-block;
+	cursor 					: pointer;
+	font-size 				: 12px;
+	width 					: 90px;
+	height 					: 23px;
+	line-height				: 23px;
+	border-radius			: 2px;
+	margin 					: 0 0 0 5px;
+	float 					: right;
+	transition-duration		: 0.4s;
+}
+.div_log_button:hover {
+	background 		 		: #7f7f7f;
+	color 					: white;
+}
+
+.div_log_button_tap:hover {
+	background 		 		: #eeeeee;
+}
+.div_log_button_tap {
+	background 		 		: #ffffff;
+	border 					: 1px solid #aaaaaa;
+	color 					: black;
+	text-align 				: center;
+	text-decoration 		: none;
+	display 				: inline-block;
+	cursor 					: pointer;
+	font-size 				: 15px;
+	width 					: 250px;
+	height 					: 30px;
+	line-height 			: 30px;
+	border-radius			: 2px;
+	margin 					: 0 5px 0 0;
+	float 					: left;
+}
+
+.div_log_button_click {
+	background 				: #dddddd;
+	cursor 					: default;
+	font-size 				: 16px;
+}
+

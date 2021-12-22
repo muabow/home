@@ -1,0 +1,686 @@
+/* Common */
+html, body {
+	margin  		: 0px 0px 0px 0px;
+	height  		: 100%;
+	overflow		: visible;
+}
+* {
+	font-family		: Verdana;
+	padding			: 0px 0px 0px 0px;
+	margin			: 0px 0px 0px 0px;
+}
+
+/* Common - Frame  */
+#div_frame {
+	width			: 100%;
+	height			: 100%;
+}
+
+/* Common - Header */
+#div_header {
+	 width			: 100%;
+	 background		: #2f312e;
+}
+#div_header_top {
+	 background		: #2f312e;
+	 height			: 90px;
+	 width			: 1200px;
+	 margin			: auto;
+}
+#div_header_name {
+	width			: 760px;
+	height			: 70px;
+	line-height		: 70px;
+	border			: 0px 0px 0px 0px;
+	padding			: 10px 0px 10px 0px;
+	float			: left;
+	text-align		: center;
+	vertical-align	: middle;
+	color 			: white;
+	margin-left		: 0px;
+    font-weight		: bold;
+    font-size		: 24pt;
+}
+#div_header_user {
+	width			: 200px;
+	height			: 70px;
+	line-height		: 70px;
+	border			: 0px 0px 0px 0px;
+	padding			: 10px 5px 10px 0px;
+	float			: right;
+	text-align		: right;
+	vertical-align	: middle;
+	color 			: white;
+	margin-left		: 0px;
+    font-weight		: bold;
+    font-size		: 10pt;
+}
+
+#img_header_ci {
+	width			: 225px;
+	height			: 70px;
+	border			: 0px 0px 0px 0px;
+	padding			: 10px 0px 10px 4px;
+	float			: left;
+	margin-right	: 5px;
+}
+#span_header_user, .span_header_user  {
+	height			: 30px;
+	line-height		: 30px;
+	vertical-align	: bottom;
+}
+.img_icon_banner {
+	width			: 18px;
+	height			: 18px;
+	vertical-align	: bottom;
+	padding-bottom  : 5px;
+	cursor 			: pointer;
+}
+#span_header_name {
+	cursor			: pointer;
+}
+
+/* Common - Banner */
+#div_banner {
+	height			: 30px;
+	width			: 100%;
+	margin			: auto;
+	margin-top		: 2px;
+	background		: #e0e0e0;
+}
+#div_banner_contents {
+	height			: 30px;
+	line-height		: 30px;
+	width			: 1200px;
+	margin			: auto;
+	background		: #e0e0e0;
+	text-align		: center;
+	vertical-align: : middle;
+	font-size		: 9pt;
+	font-weight		: bold;
+	color			: #5b5b54;
+}
+
+/* Common - Main   */
+#div_main {
+	display 		: flex;
+	justify-content : center;
+	min-width		: 1200px;
+	padding-top		: 2px;
+}
+#div_main_menu {
+	border-color	: #e7e7e7;
+	border-style	: solid;
+	border-width	: 2px 1px 1px 1px;
+	min-width		: 230px;
+	max-width 		: 350px;
+	margin-right	: 3px;
+	display 		: flex;
+	flex-direction 	: column;
+}
+.div_main_menu_category {
+	height			: 30px;
+	line-height		: 30px;
+	min-width		: 230px;
+	background 		: #E6E6E6;
+	vertical-align	: middle;
+	font-weight		: bolder;
+	font-size		: 14px;
+	float 			: left;
+	display 		: flex;
+	overflow 		: hidden;
+}
+
+.span_main_menu_category {
+	flex 			: 1;
+	white-space 	: nowrap;
+	padding 		: 0 10px;
+}
+
+.div_main_menu_sub {
+	height 			: 25px;
+	line-height		: 25px;
+	min-width		: 230px;
+	float 			: left;
+	vertical-align	: middle;
+	font-size		: 12px;
+	border-color	: #e7e7e7;
+	border-style	: solid;
+	border-width	: 0px 0px 1px 0px;
+	font-weight		: normal;
+	overflow 		: hidden;
+	display 		: flex;
+}
+
+.span_main_menu_sub {
+	flex 			: 1;
+	white-space 	: nowrap;
+	padding-right	: 35px;
+	text-indent 	: 10px;
+	cursor			: pointer;
+}
+
+.span_main_menu_focus {
+	text-indent 	: 5px;
+}
+
+.div_main_menu_sub_hover {
+	font-weight		: bold;
+	background		: #efefef;
+	padding-right	: 0px;
+}
+
+.div_main_menu_focus {
+	border-left 	: 5px solid #FF4747;
+}
+
+#div_main_contents {
+	order 			: 2;
+	border-color	: #e7e7e7;
+	border-style	: solid;
+	border-width	: 2px 1px 1px 1px;
+	width			: 960px;
+	float			: left;
+}
+#div_main_login {
+	border-color	: #e7e7e7;
+	border-style	: solid;
+	border-width	: 2px 1px 1px 1px;
+	width			: 1197px;
+	height			: 500px;
+	float			: left;
+	background-image: url("/img/background_login.png");
+	background-size : cover;
+}
+#div_main_login_form {
+	background 		: #fdfdfd;
+	width 			: 340px;
+	border 			: 1px solid #d2d2d2;
+	border-radius	: 5px;
+	margin 			: auto;
+	margin-top		: 40px;
+	text-align		: center;
+	vertical-align  : middle;
+	#padding-bottom 	: 30px;
+	padding-bottom 	: 20px;
+}
+#span_login_form_title {
+	font-weight		: bolder;
+	font-size		: 24px;
+	color 			: #5b5b54;
+}
+.input_login_form {
+	border-radius   : 3px;
+	width			: 200px;
+	height			: 40px;
+	font-size		: 16px;
+	border-color	: #d2d2d2;
+	border-style	: solid;
+	border-width	: 1px 1px 1px 1px;
+	margin-bottom	: 5px;
+	padding-left	: 15px;
+}
+#div_login_alert_form {
+	height			: 30px;
+	margin-top		: 5px;
+	margin-bottom	: 10px;
+}
+
+#div_login_alert {
+	border-radius   : 3px;
+	width			: 300px;
+	height			: 30px;
+	line-height		: 30px;
+	font-size		: 14px;
+	border-color	: #c15e5e;
+	border-style	: solid;
+	border-width	: 1px 1px 1px 1px;
+	margin-bottom	: 5px;
+	color			: #ce1414;
+	margin			: auto;
+	display			: none;
+}
+
+#div_login_form_submit {
+	background-color: #e7e7e7;
+	border 			: 1px solid #7c7c7c;
+	color 			: #5b5b54;
+	text-align 		: center;
+	text-decoration : none;
+	display 		: inline-block;
+	cursor 			: pointer;
+	font-size 		: 14px;
+	font-weight		: bolder;
+	width			: 215px;
+	height 			: 40px;
+	line-height		: 40px;
+	border-radius	: 2px;
+	-webkit-transition-duration	: 0.1s; /* Safari */
+	transition-duration			: 0.1s;
+}
+
+.ui-button {
+	background-color: #e7e7e7 !important;
+	color 			: #5b5b54 !important;
+	font-weight		: bolder !important;
+	font-size 		: 14px !important;
+	border 			: 1px solid #7c7c7c !important;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+	padding 		: 0 !important;
+}
+
+.ui-dialog-buttonset {
+	margin 			: 0 auto !important;
+	float 			: none !important;
+	display 		: flex;
+	justify-content : center;
+}
+
+.ui-dialog-buttonset .ui-button:last-child {
+	margin-left 	: 5px !important;
+	margin-right 	: 0px !important;
+}
+
+.ui-dialog-buttonset .ui-button:last-child,
+.ui-button:hover {
+	background-color: #7f7f7f !important;
+	color 			: white !important;
+}
+
+#div_login_form_submit:hover {
+	background-color: #7f7f7f;
+	color 			: white;
+}
+
+#div_after_form_submit,
+#div_password_form_submit {
+	background-color: #e7e7e7;
+	border 			: 1px solid #7c7c7c;
+	color 			: #5b5b54;
+	text-align 		: center;
+	text-decoration : none;
+	display 		: inline-block;
+	cursor 			: pointer;
+	font-size 		: 14px;
+	font-weight		: bolder;
+	width			: 215px;
+	height 			: 40px;
+	line-height		: 40px;
+	border-radius	: 2px;
+	-webkit-transition-duration	: 0.1s; /* Safari */
+	transition-duration			: 0.1s;
+	margin-right 	: 5px;
+}
+
+#div_password_form_submit {
+	margin-bottom 	: 5px;
+}
+
+#div_after_form_submit,
+#div_password_form_submit:hover {
+	background-color: #7f7f7f;
+	color 			: white;
+}
+
+/* Common - Footer */
+#div_footer {
+	float: left;	: left;
+	width			: 100%;
+	height			: 40px;
+	line-height		: 40px;
+	text-align		: center;
+	vertical-align	: middle;
+	margin			: auto;
+    font-size		: 9pt;
+    color			: #4c4b51;
+}
+#div_footer_shell {
+	width			: 1200px;
+	margin 			: auto;
+}
+#span_footer_language {
+	height			: 28px;
+	line-height		: 28px;
+	vertical-align	: bottom;
+	font-weight		: bold;
+	color			: black;
+	cursor 			: pointer;
+}
+#div_footer_language_list {
+	border 			: 1px dotted silver;
+	width			: 500px;
+	height			: 20px;
+	margin-left		: auto;
+	margin-right	: auto;
+	padding-bottom  : 20px;
+	display			: none;
+}
+#span_footer_language:visited {
+    color			: #000000;
+}
+#span_footer_language:link {
+    color			: #000000;
+}
+#span_footer_language:active {
+    text-decoration	: none;
+}
+#span_footer_language:hover {
+    color			: #5b5b54;
+    text-decoration	: none;
+}
+.copyright_link {
+	font-weight		: bold;
+	text-decoration	: none;
+}
+.copyright_link:visited {
+    color			: #000000;
+    text-decoration	: none;
+}
+.copyright_link:link {
+    color			: #000000;
+}
+.copyright_link:active {
+    text-decoration	: none;
+}
+.copyright_link:hover {
+    color			: #5b5b54;
+    text-decoration	: none;
+}
+.a_footer_language_list {
+	cursor 			: pointer;
+}
+.div_main_menu_viewer {
+	padding 		: 5px 10px 5px 10px;
+	overflow 		: hidden;
+	border-bottom	: 0px solid #e7e7e7;
+	display 		: flex;
+	flex-direction 	: column;
+}
+
+.span_main_menu_view_title {
+	height 			: 20px;
+	line-height		: 20px;
+	min-width		: 200px;
+	flex 			: 1;
+	float 			: left;
+	vertical-align	: middle;
+	font-size		: 13px;
+	font-weight		: bolder;
+	white-space 	: nowrap;
+}
+
+.span_main_menu_view {
+	height 			: 20px;
+	min-width		: 200px;
+	flex 			: 1;
+	float 			: left;
+	vertical-align	: middle;
+	font-size		: 12px;
+	font-weight		: normal;
+}
+
+div#viewLoading {
+	position 			: absolute;
+	top 				: 50%;
+	left 				: 50%;
+	transform 			: translate(-50%, -50%);
+	z-index				: 1;
+	display				: none;
+}
+
+div#viewBackground {
+	position 			: absolute;
+	top 				: 0%;
+	left 				: 0%;
+	width 				: 100%;
+	height 				: 100%;
+	background-color 	: #000;
+	filter 				: alpha(opacity=10);
+	-ms-filter			: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+	-moz-opacity		: 0.1;
+	-khtml-opacity		: 0.1;
+	opacity				: 0.1;
+	z-index				: 1;
+	display				: none;
+}
+div#percentView {
+	position 			: absolute;
+	top					: 48%;
+	left 				: 52%;
+	z-index 			: 1;
+	font-size			: 14px;
+	color				: white;
+	font-weight			: bolder;
+	display				: none;
+}
+
+#div_footer_mobile_view {
+	height 			: 30px;
+	line-height 	: 35px;
+	font-weight 	: bolder;
+}
+
+
+/* Auth */
+.textbox {
+	position 			: relative;
+}
+
+.textbox label {
+	position 			: absolute;
+	top 				: 1px; 			/* input 요소의 border-top 설정값 만큼 */
+	left 				: 1px;			/* input 요소의 border-left 설정값 만큼 */
+	padding 			: 8px 10px;		/* input 요소의 padding 값 만큼 */
+	color 				: #999;
+	cursor 				: text;
+}
+
+.textbox input[type="text"], .textbox input[type="password"] {
+	width				: 298px;		/* 원하는 너비 설정 */
+	height 				: auto;			/* 높이값 초기화 */
+	line-height			: normal;		/* line-height 초기화 */
+	padding 			: 10px 10px;	/* 원하는 여백 설정, 상하단 여백으로 높이를 조절 */
+	font-family 		: inherit; 		/* 폰트 상속 */
+	border 				: 1px solid #999;
+	border-radius 		: 0; 			/* iSO 둥근모서리 제거 */
+	outline-style 		: none; 		/* 포커스시 발생하는 효과 제거를 원한다면 */
+	-webkit-appearance 	: none; 		/* 브라우저별 기본 스타일링 제거 */
+	-moz-appearance 	: none;
+	appearance 			: none;
+}
+
+.filebox {
+	float 				: center;
+}
+
+.filebox input[type="file"] {
+	position 			: absolute;
+	width 	 			: 1px;
+	height 				: 1px;
+	padding 			: 0;
+	margin 				: -1px;
+	overflow 			: hidden;
+	clip 				: rect(0,0,0,0);
+	border 				: 0;
+}
+
+.filebox label {
+	border 				: 1px solid #d2d2d2; /* 7c7c7c */
+	color 				: #5b5b54;
+	text-align 			: center;
+	text-decoration 	: none;
+	display 			: inline-block;
+	cursor 				: pointer;
+	font-size 			: 14px;
+	font-weight			: bolder;
+	width				: 215px;
+	height 				: 40px;
+	line-height			: 40px;
+	border-radius		: 2px;
+	-webkit-transition-duration	: 0.1s; /* Safari */
+	transition-duration			: 0.1s;
+	margin-top 			: 10px;
+	margin-right 		: 5px;
+}
+
+.filebox label:hover {
+	background-color 	: #e7e7e7;
+	color 				: black;
+}
+.filebox .upload-name {
+	width				: 220px;
+	height				: 20px;
+	line-height 		: 20px;
+	display 			: inline-block;
+	padding 			: 10px 10px;	/* label의 패딩값과 일치 */
+	font-size			: inherit;
+	font-family			: inherit;
+	line-height			: normal;
+	vertical-align		: middle;
+	background-color 	: #ffffff;
+	border 				: 1px solid #d2d2d2;
+	border-radius		: 5px;
+	-webkit-appearance 	: none;			/* 네이티브 외형 감추기 */
+	-moz-appearance 	: none;
+	appearance 			: none;
+}
+
+.div_button {
+	background-color 		: #e7e7e7;
+	color 					: black;
+	border 					: 1px solid #aaaaaa;
+	text-align 				: center;
+	text-decoration 		: none;
+	display 				: inline-block;
+	cursor 					: pointer;
+	font-size 				: 12px;
+	width 					: 90px;
+	height 					: 23px;
+	line-height				: 23px;
+	border-radius			: 2px;
+	margin 					: 0 0 0 5px;
+	float 					: center;
+	transition-duration		: 0.4s;
+}
+
+.div_button:hover {
+	background-color 		: #7f7f7f;
+	color 					: white;
+}
+
+.div_button_wrap {
+	padding 				: 5px 10px 5px 10px;
+	overflow 				: hidden;
+}
+
+#span_banner_ipAddr {
+	position 		: relative;
+	cursor 			: pointer;
+}
+
+.tooltip {
+	display 		: flex;
+	position 		: absolute;
+	left 			: 0;
+	z-index 		: 150;
+	background 		: white;
+	border 			: 1px solid black;
+	border-radius 	: 3px;
+	text-align 		: left;
+}
+
+.tooltip_name_wrap {
+	display 		: flex;
+	flex-direction 	: column;
+}
+
+.tooltip_value_wrap {
+	display 		: flex;
+	flex-direction 	: column;
+}
+
+.tooltip_name {
+	padding 		: 0 8px;
+	height 			: 26px;
+	line-height		: 26px;
+	border-right 	: 1px dashed #bbbbbb;
+	border-bottom 	: 1px dashed #bbbbbb;
+}
+
+.tooltip_name:last-child {
+	border-bottom 	: 0px;
+}
+
+.tooltip_value {
+	padding 		: 0 8px;
+	height 			: 26px;
+	line-height		: 26px;
+	font-weight 	: normal;
+	border-bottom 	: 1px dashed #bbbbbb;
+	min-width		: 100px;
+}
+
+.tooltip_value:last-child {
+}
+
+.div_blur {
+	display 		: none;
+	position 		: absolute;
+	top 			: 0px;
+	left 			: 0px;
+	width 			: 100%;
+	height 			: 100%;
+	background 		: rgba(255,255,255,0.5);
+	z-index 		: 200;
+}
+
+.div_system_check_alert {
+	display 		: none;
+	justify-content : center;
+	align-items 	: center;
+	position 		: absolute;
+	top 			: 50%;
+	left 			: 50%;
+	margin 			: -200px 0 0 -400px;
+	width 			: 800px;
+	height 			: 400px;
+	border 			: 3px solid #777777;
+	background 		: white;
+	z-index 		: 201;
+	font-size 		: 24pt;
+	font-weight 	: bolder;
+	background-image: url("/img/background_login.png");
+	background-size : cover;
+}
+
+#div_system_check_alert div {
+	text-align 	 	: center;
+}
+
+#dialog-confirm {
+	display 		: none;
+	text-align 		: center;
+	font-size 		: 15px;
+	min-height 		: 25px !important;
+}
+
+#div_auto_login_checkbox {
+	display 		: inline-block;
+    text-align 		: center;
+    font-size		: 13px;
+    font-weight		: bolder;
+    height			: 30px;
+    line-height		: 30px;
+    margin-top		: 7px;
+    color 			: #5b5b54;
+}
+.checkbox {
+	cursor 			: pointer;
+	padding-left 	: 3px;
+}
+
+input[type=checkbox] {
+ 	transform 		: scale(1.3);
+}

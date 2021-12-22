@@ -1,0 +1,84 @@
+daily(mem usage:bytes): 119537064
+weekly(mem usage:bytes): 2286228
+monthly(mem usage:bytes): 10124724
+yearly searching(mem usage:bytes): 802
+weekly schedule[1]
+   end day of week[0]:1
+   start hour[0]:16
+   end hour[0]:16
+   start minute[0]:0
+   end minute[0]:1
+   repeat count[0]:1
+   media file[0]:/opt/interm/tts/ttskorplay.sh "코어시간이 끝났습니다."
+weekly schedule[1]
+   end day of week[1]:1
+   start hour[1]:10
+   end hour[1]:10
+   start minute[1]:0
+   end minute[1]:1
+   repeat count[1]:1
+   media file[1]:/opt/interm/tts/ttskorplay.sh "코어시간이 시작되었습니다."
+weekly schedule[2]
+   end day of week[0]:2
+   start hour[0]:16
+   end hour[0]:16
+   start minute[0]:0
+   end minute[0]:1
+   repeat count[0]:1
+   media file[0]:/opt/interm/tts/ttskorplay.sh "코어시간이 끝났습니다."
+weekly schedule[2]
+   end day of week[1]:2
+   start hour[1]:10
+   end hour[1]:10
+   start minute[1]:0
+   end minute[1]:1
+   repeat count[1]:1
+   media file[1]:/opt/interm/tts/ttskorplay.sh "코어시간이 시작되었습니다."
+weekly schedule[3]
+   end day of week[0]:3
+   start hour[0]:16
+   end hour[0]:16
+   start minute[0]:0
+   end minute[0]:1
+   repeat count[0]:1
+   media file[0]:/opt/interm/tts/ttskorplay.sh "코어시간이 끝났습니다."
+weekly schedule[3]
+   end day of week[1]:3
+   start hour[1]:10
+   end hour[1]:10
+   start minute[1]:0
+   end minute[1]:1
+   repeat count[1]:1
+   media file[1]:/opt/interm/tts/ttskorplay.sh "코어시간이 시작되었습니다."
+weekly schedule[4]
+   end day of week[0]:4
+   start hour[0]:16
+   end hour[0]:16
+   start minute[0]:0
+   end minute[0]:1
+   repeat count[0]:1
+   media file[0]:/opt/interm/tts/ttskorplay.sh "코어시간이 끝났습니다."
+weekly schedule[4]
+   end day of week[1]:4
+   start hour[1]:10
+   end hour[1]:10
+   start minute[1]:0
+   end minute[1]:1
+   repeat count[1]:1
+   media file[1]:/opt/interm/tts/ttskorplay.sh "코어시간이 시작되었습니다."
+weekly schedule[5]
+   end day of week[0]:5
+   start hour[0]:16
+   end hour[0]:16
+   start minute[0]:0
+   end minute[0]:1
+   repeat count[0]:1
+   media file[0]:/opt/interm/tts/ttskorplay.sh "코어시간이 끝났습니다."
+weekly schedule[5]
+   end day of week[1]:5
+   start hour[1]:10
+   end hour[1]:10
+   start minute[1]:0
+   end minute[1]:1
+   repeat count[1]:1
+   media file[1]:/opt/interm/tts/ttskorplay.sh "코어시간이 시작되었습니다."

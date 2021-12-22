@@ -1,0 +1,489 @@
+hr {
+	border-top				: 1px dashed #C0C0C0;
+}
+
+#div_log_title {
+	padding-top				: 10px;
+	padding-bottom			: 10px;
+	font-weight				: bolder;
+	font-size				: 18px;
+}
+
+#div_contents {
+	padding					: 10px 10px 10px 10px;
+	font-size 				: 14px;
+}
+
+#div_contents_table {
+	margin-top 				: 10px;
+	width 					: 100%;
+	overflow 				: hidden;
+}
+
+.div_contents_cell {
+	width 					: 100%;
+	margin 					: 10px 0 20px 0;
+	float 					: left;
+}
+
+.div_contents_cell_line {
+	width 					: 100%;
+	border-top 				: 1px solid #cccccc;
+	float 					: left;
+	display 				: flex;
+	flex-direction			: column;
+}
+
+.div_contents_cell_title {
+	padding 				: 10px 0;
+	text-indent 			: 10px;
+	background 				: #eeeeee;
+	float 					: left;
+	display 				: flex;
+	align-items 			: center;
+	font-weight 			: bolder;
+	border-left				: 1px solid #cccccc;
+	border-right			: 1px solid #cccccc;
+	white-space 	 		: nowrap;
+
+}
+
+.div_contents_cell_contents {
+	display 				: flex;
+	padding 				: 10px 0;
+	text-indent 			: 10px;
+	float 					: left;
+	border-left				: 1px solid #cccccc;
+	border-right			: 1px solid #cccccc;
+}
+
+.div_button {
+	text-indent 			: 0;
+	background-color 		: #f2f2f2;
+	color 					: black;
+	border 					: 1px solid #aaaaaa;
+	text-align 				: center;
+	text-decoration 		: none;
+	display 				: inline-block;
+	cursor 					: pointer;
+	font-size 				: 12px;
+	width 					: 85px;
+	height 					: 23px;
+	line-height				: 23px;
+	border-radius			: 2px;
+	margin 					: 10px 0 0 5px;
+	float 					: right;
+	transition-duration		: 0.4s;
+}
+
+.div_button_wrap {
+	padding 				: 0 10px 10px 10px;
+	overflow 				: hidden;
+	border-left				: 1px solid #cccccc;
+	border-right			: 1px solid #cccccc;
+}
+
+#columnButton {
+	display 				: flex;
+	flex-direction 			: column;
+}
+
+.div_contents_cell_category {
+	margin-top				: 10px;
+	order 					: 1;
+	padding 				: 10px 0;
+	text-indent 			: 10px;
+	background 				: #878787;
+	color 					: #ffffff;
+	float 					: left;
+	display 				: flex;
+	align-items 			: center;
+	font-weight 			: bolder;
+	border-left				: 1px solid #cccccc;
+	border-right			: 1px solid #cccccc;
+}
+
+.divTableRow {
+	display 				: flex;
+	border-top 				: 1px solid #cccccc;
+}
+
+.divTableRow:last-child {
+	border-bottom			: 1px solid #cccccc;
+}
+
+.divTableHead {
+	font-weight: bolder;
+	background-color: #eeeeee;
+	height 			: 20px;
+	line-height		: 20px;
+}
+.divTableHead,
+.divTableCell {
+	padding 				: 2px;
+	text-indent 			: 0;
+}
+
+/* play button */
+.divTableCell:nth-child(2),
+.divTableHead:nth-child(2) {
+	width 					: 20px;
+	display 				: flex;
+	align-items 			: center;
+}
+
+/* filename */
+.divTableCell:nth-child(3),
+.divTableHead:nth-child(3) {
+	flex 					: 1 1 0;
+	white-space 			: normal;
+	overflow 				: hidden;
+	text-align 				: left;
+	word-wrap 				: break-word;
+	display 				: -webkit-box;
+	-webkit-line-clamp 		: 2;
+	-webkit-box-orient 		: vertical;
+}
+
+/* 재생설정 */
+.divTableCell:nth-child(4) {
+	min-width:95px;
+	max-width:95px;
+	display 			: flex;
+	justify-content 	: center;
+	align-items 		: center;
+
+}
+
+.divTableHead:nth-child(4) {
+	display 			: flex;
+	min-width:95px;
+	max-width:95px;
+	overflow 			: hidden;
+	white-space 		: nowrap;
+	justify-content 	: center;
+	align-items 		: center;
+	text-overflow 		: ellipsis;
+}
+
+/* check box */
+.divTableCell:nth-child(5),
+.divTableHead:nth-child(5) {
+	min-width:30px;
+	max-width:30px;
+	display 			: flex;
+	justify-content 	: center;
+	align-items 		: center;
+}
+
+.divTableCell_left {
+	min-width 				: 30px;
+	max-width 				: 30px;
+	text-align 				: center;
+	text-indent				: 0px;
+	display 				: flex;
+	align-items 			: center;
+	flex 					: 1 0 auto;
+	justify-content 		: center;
+}
+
+.divTableHead_left {
+	visibility 				: hidden;
+	position 				: relative;
+	width 					: 30px;
+	height 					: 20px;
+	line-height				: 20px;
+	padding 				: 2px;
+}
+
+.divTableHead_left:after {
+	float 					: left;
+	width 					: 30px;
+	height 					: 20px;
+	line-height				: 20px;
+	visibility 				: visible;
+	position 				: absolute;
+	top 					: 0px;
+	left 					: 0px;
+	content 				: "#";
+	text-align 				: center;
+	text-indent				: 0px;
+	font-weight				: bolder;
+	padding 				: 2px;
+	background-color: #eeeeee;
+}
+
+.table_wrap {
+	flex 					: 1 1 0;
+	display 				: flex;
+	flex-direction 			: column;
+}
+
+.div_button_mini {
+	width 					: 10px;
+	text-indent 			: -100px;
+	overflow 				: hidden;
+	background 				: url("../img/run.png");
+	background-repeat 		: no-repeat;
+	background-size 		: 100%;
+	background-position 	: center;
+	margin-left 			: 5px;
+}
+
+.filebox_upgrade {
+	flex 				: 1;
+	display 			: flex;
+}
+
+.filebox_upgrade .upload-name {
+	flex 				: 1;
+	height				: 15px;
+	line-height 		: 15px;
+	display 			: inline-block;
+	padding 			: 10px 10px;	/* label의 패딩값과 일치 */
+	font-size			: inherit;
+	font-family			: inherit;
+	line-height			: normal;
+	vertical-align		: middle;
+	background-color 	: #ffffff;
+	border 				: 1px solid #999;
+	border-radius		: 5px;
+	-webkit-appearance 	: none;			/* 네이티브 외형 감추기 */
+	-moz-appearance 	: none;
+	appearance 			: none;
+	margin-left 		: 10px;
+}
+
+.filebox_upgrade label {
+	width				: 40px;
+	text-align			: center;
+	height				: 17px;
+	line-height 		: 17px;
+	display 			: inline-block;
+	padding 			: 9px 10px;
+	background-color 	: #e7e7e7;
+	color 				: black;
+	font-size 			: inherit;
+	line-height 		: normal;
+	vertical-align 		: middle;
+	cursor 				: pointer;
+	border 				: 1px solid #999;
+	border-radius 		: 5px;
+	transition-duration	: 0.4s;
+	text-indent 		: 0;
+	margin 				: 0 10px;
+}
+
+.filebox_upgrade label:hover {
+	background-color 	: #7f7f7f;
+	color 				: white;
+}
+
+.filebox_upgrade input[type="file"] {
+	position 			: absolute;
+	width 				: 0;
+	top 				: 0;
+	left 				: 0;
+	padding 			: 0;
+	margin 				: -1px;
+	overflow 			: hidden;
+	clip 				: rect(0,0,0,0);
+	border 				: 0;
+}
+
+.monitor_play {
+	background 				: linear-gradient(#5da8dd, #1869a3);
+	color 					: white;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 16px 10px;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 7px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #878787;
+  border-radius: 25px;
+  border: 0px solid #00ffff;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 0px solid #000000;
+  height: 39px;
+  width: 26px;
+  border-radius: 5px;
+  background: #efefef;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -16px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #fcfcfc;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 7px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #efefef;
+  border-radius: 25px;
+  border: 0px solid #00ffff;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 0px solid #000000;
+  height: 39px;
+  width: 26px;
+  border-radius: 5px;
+  background: #efefef;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 7px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #e2e2e2;
+  border: 0px solid #00ffff;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]::-ms-fill-upper {
+  background: #878787;
+  border: 0px solid #00ffff;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 0px solid #000000;
+  height: 39px;
+  width: 26px;
+  border-radius: 5px;
+  background: #efefef;
+  cursor: pointer;
+  height: 7px;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #878787;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #fcfcfc;
+}
+
+.div_log_button_volume {
+	background 		 		: #e7e7e7;
+	border 					: 1px solid #aaaaaa;
+	color 					: black;
+	text-align 				: center;
+	text-decoration 		: none;
+	display 				: inline-block;
+	cursor 					: pointer;
+	font-size 				: 15px;
+	width 					: 90px;
+	height 					: 38px;
+	line-height				: 38px;
+	border-radius			: 2px;
+	margin 					: 0 5px;
+	float 					: right;
+	transition-duration		: 0.4s;
+	text-indent 			: 0;
+}
+
+.slidershell,
+.sliderfill,
+.slidertrack,
+.sliderthumb,
+.slidervalue {
+	display 			: none;
+}
+
+.text_volume_value {
+	flex 				: 1 1 0;
+	height 				: 21px !important;
+	margin-left 		: 5px;
+}
+
+.div_contents_run_table_box {
+	display 				: flex;
+ 	width 					: 95%;
+ 	padding 				: 10px 10px;
+ 	float 					: left;
+ 	text-indent 			: 10px;
+}
+
+INPUT[type=text1] {
+	vertical-align 			: 1px;
+    font-size 				: 15px;
+    height 					: 18px;
+    padding 				: 8px 8px 8px 8px;
+    color 					: black !important;
+    width 					: 30px;
+   
+}
+
+/* DSP control */
+.outputVolume {
+	flex 				: 1 1 0;
+	display 			: flex;
+}
+
+.eqCol_outputVolume {
+	flex 				: 1 1 0;
+	display 			: flex;
+	flex-direction 		: row-reverse;
+    margin: 0 10px;
+    border: 1px solid #989898;
+}
+
+.eqItem_outputVolume {
+    flex 				: 1 1 0;
+    height: 26px;
+    float: right;
+    background: #000000;
+    margin: 0 0 0 0;
+    opacity: 0.2;
+}
+
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(10) {
+    background: #B7EB03;
+    display: none;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(9) {
+    background: #B7EB03;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(8) {
+    background: #B2E20C;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(7) {
+    background: #93D200;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(6) {
+    background: #7DC401;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(5) {
+    background: #4DB401;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(4) {
+    background: #B2E20C;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(3) {
+    background: #FFB400;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(2) {
+    background: #EE6002;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(1) {
+    background: #D52800;
+}

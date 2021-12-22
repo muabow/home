@@ -1,0 +1,17 @@
+holiday(mem usage:bytes): 1604
+holidays[0]
+   leap year:1
+   start total_minutes: 226080
+   end total_minutes: 227519
+   start month-day: 6-6
+   end month-day: 6-6
+   start hour-minute: 0-0
+   end hour-minute: 23-59
+holidays[1]
+   leap year:1
+   start total_minutes: 227520
+   end total_minutes: 228959
+   start month-day: 6-7
+   end month-day: 6-7
+   start hour-minute: 0-0
+   end hour-minute: 23-59

@@ -1,0 +1,18 @@
+/*   
+ * 1. 문서 전체에 영향을 끼치는 *, html, body, a 등 태그의 직접적인 사용은 지양합니다.
+ * 2. ID 또는 CLASS를 지정하여 사용합니다.
+ *    ex) #div_frame { }, .span_header { }
+ * 3. 문서 전체에 영향을 주는 스타일이 있습니다. Template의 css/style.css를 참고하세요.
+ * 4. 해당 주석은 모듈 작성 후 삭제해 주세요. 
+ */
+
+/* Sample */
+/*
+#div_header {
+	 width			: 100%;
+	 background		: #2f312e;
+}
+*/
+#span_test {
+	 color 			: red;
+}

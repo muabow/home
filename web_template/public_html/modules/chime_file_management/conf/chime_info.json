@@ -1,0 +1,14 @@
+{
+    "chime_list": [
+        {
+            "name": "bell.mp3",
+            "duration": 3
+        }
+    ],
+    "chime_set": [
+        "",
+        ""
+    ],
+    "chime_volume": 100,
+    "mix_set": 1
+}

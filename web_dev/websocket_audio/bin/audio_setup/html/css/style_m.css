@@ -1,0 +1,772 @@
+hr {
+	border-top				: 1px dashed #C0C0C0;
+}
+
+#div_log_title {
+	padding-top				: 10px;
+	padding-bottom			: 10px;
+	font-weight				: bolder;
+	font-size				: 18px;
+}
+
+#div_contents {
+	padding					: 5px 5px 5px 5px;
+	font-size 				: 14px;
+}
+
+.div_contents_table {
+	background 				: white;
+	margin-top 				: 10px;
+	overflow 				: hidden;
+	top 					: -3px;
+	position 				: relative;
+	display 				: flex;
+	flex-direction 			: column;
+}
+
+.div_contents_cell {
+	margin 					: 10px 0 10px 0;
+	float 					: left;
+	display 				: flex;
+	flex-direction 			: column;
+}
+
+.div_contents_title {
+	padding 				: 10px 10px 3px 3px;
+	font-size 				: 15px;
+	flex 					: 1 1 0;
+	font-weight 			: bolder;
+	border-bottom 			: 1px solid #cccccc;
+	float 					: left;
+}
+
+INPUT[type=radio] {
+	vertical-align 			: -1.5px;
+}
+
+INPUT[type=text] {
+	vertical-align 			: 1px;
+    font-size 				: 12px;
+    height 					: 14px;
+    padding 				: 0 10px 0 10px;
+    color 					: black !important;
+}
+
+INPUT[type=text1] {
+	vertical-align 			: 1px;
+    font-size 				: 15px;
+    height 					: 18px;
+    padding 				: 8px 8px 8px 8px;
+    color 					: black !important;
+    width 					: 30px;
+   
+}
+
+
+select{
+	width 					: 204px;
+	padding-left			: 6px;
+	font-size 				: 13px;
+}
+
+.div_log_button {
+	background 		 		: #e7e7e7;
+	border 					: 1px solid #aaaaaa;
+	color 					: black;
+	text-align 				: center;
+	text-decoration 		: none;
+	display 				: inline-block;
+	cursor 					: pointer;
+	font-size 				: 12px;
+	width 					: 90px;
+	height 					: 23px;
+	line-height				: 23px;
+	border-radius			: 2px;
+	float 					: right;
+	transition-duration		: 0.4s;
+	text-indent 			: 0;
+}
+.div_log_button_volume {
+	background 		 		: #e7e7e7;
+	border 					: 1px solid #aaaaaa;
+	color 					: black;
+	text-align 				: center;
+	text-decoration 		: none;
+	display 				: inline-block;
+	cursor 					: pointer;
+	font-size 				: 15px;
+	width 					: 90px;
+	height 					: 38px;
+	line-height				: 38px;
+	border-radius			: 2px;
+	margin 					: 0 5px;
+	float 					: right;
+	transition-duration		: 0.4s;
+	text-indent 			: 0;
+}
+
+
+.div_log_button:hover {
+	background 		 		: #7f7f7f;
+	color 					: white;
+}
+
+.div_log_button_tap:hover {
+	background 		 		: #eeeeee;
+}
+
+.div_contents_cell_line {
+	display 				: flex;
+	flex-direction 			: column;
+	border-top 				: 1px solid #cccccc;
+	float 					: left;
+}
+
+.div_contents_cell_category {
+    padding: 10px 0;
+    text-indent: 10px;
+    background: #878787;
+    color: #ffffff;
+    float: left;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+
+.div_contents_cell_title {
+	order 					: 1;
+	width 					: 100%;
+	padding 				: 10px 0 10px 10px;
+	margin 		 			: 0 10px 0 0;
+	background 				: #eeeeee;
+	float 					: left;
+	display 				: flex;
+	align-items 			: center;
+	font-weight 			: bolder;
+}
+
+.div_contents_run_cell_title {
+	order 					: 1;
+	width 					: 100%;
+	padding 				: 10px 0 10px 10px;
+	margin 		 			: 0 10px 0 0;
+	background 				: #eeeeee;
+	float 					: left;
+	display 				: flex;
+	align-items 			: center;
+	font-weight 			: bolder;
+}
+
+.div_contents_cell_contents {
+	float 					: left;
+	display 				: flex;
+	flex-direction 			: column;
+	border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+
+.div_contents_run_cell_contents {
+	float 					: left;
+	display 				: flex;
+	flex-direction 			: column;
+    border-top: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+
+.div_button_wrap {
+	padding 				: 5px 0px 5px 15px;
+	overflow 				: hidden;
+}
+
+.div_contents_table_sub_title {
+ 	width 					: 100%;
+ 	height 					: 25px;
+ 	line-height 			: 25px;
+ 	float 					: left;
+ 	background 				: #efefef;
+ 	margin-top				: 10px;
+ 	margin-bottom			: 5px;
+ 	padding-left			: 10px;
+}
+
+.div_contents_table_run_sub_title {
+	padding 				: 10px 0;
+ 	float 					: left;
+ 	background 				: #efefef;
+ 	display 				: flex;
+ 	align-items 			: center;
+ 	text-indent 			: 10px;
+}
+
+.div_contents_table_text {
+ 	width 					: 100%;
+ 	height 					: 38px;
+ 	line-height 			: 38px;
+ 	float 					: left;
+ 	padding-left			: 20px;
+ 	font-weight				: bold;
+ 	border-bottom			: 1px solid #efefef;
+}
+
+.div_contents_table_box {
+	flex 					: 1;
+	display 				: flex;
+ 	float 					: left;
+ 	padding 				: 10px 0;
+ 	text-indent 			: 10px;
+ 	border-left				: 1px solid #cccccc;
+ 	border-right			: 1px solid #cccccc;
+ 	border-bottom			: 1px solid #cccccc;
+}
+
+.div_contents_run_table_box {
+	display 				: flex;
+ 	width 					: 95%;
+ 	padding 				: 10px 10px;
+ 	float 					: left;
+ 	text-indent 			: 10px;
+}
+
+.div_log_button_tap {
+	background 		 		: #ffffff;
+	border 					: 1px solid #aaaaaa;
+	color 					: black;
+	text-align 				: center;
+	text-decoration 		: none;
+	display 				: inline-block;
+	cursor 					: pointer;
+	font-size 				: 15px;
+	width 					: 250px;
+	height 					: 30px;
+	line-height 			: 30px;
+	border-radius			: 2px;
+	margin 					: 0 5px 0 0;
+	float 					: left;
+}
+
+.div_log_button_click {
+	background 				: #dddddd;
+	cursor 					: default;
+	font-size 				: 16px;
+}
+
+#ip_address {
+	display 				: none;
+	float 					: left;
+}
+
+.ip_address_hide {
+	width 					: 0px;
+	overflow 				: hidden;
+}
+
+#tabs-1 {
+	overflow 				: hidden;
+}
+
+#tabs-2 {
+	overflow 				: hidden;
+}
+
+
+#div_tabs {
+	margin-top 				: 10px;
+	border 					: 1px solid #c5c5c5;
+	border-radius 			: 3px;
+}
+
+#div_tabs_list_wrap {
+	display 				: flex;
+	background 				: #e9e9e9;
+	margin 					: 3px;
+	border 					: 1px solid #dddddd;
+	border-radius 			: 3px;
+	padding 				: 3px 3px 0 3px;
+	overflow 				: hidden;
+}
+
+.tabs_list {
+	float 					: left;
+	padding 				: 7px 14px;
+	font-size 				: 14px;
+	background 				: #f6f6f6;
+	color 					: #000000;
+	margin 					: 1px 3px 0 0;
+	border 					: 1px solid #c5c5c5;
+	border-bottom 			: 0;
+	border-top-left-radius 	: 3px;
+	border-top-right-radius : 3px;
+	cursor 					: pointer;
+	text-overflow 			: ellipsis;
+	white-space 			: nowrap;
+	overflow 				: hidden;
+}
+
+.tabs_list:hover {
+	background 				: #e6e6e6;
+}
+
+#tabs_contents {
+	overflow 				: hidden;
+	padding 				: 0 10px;
+}
+
+.tab_item {
+	display 				: flex;
+	flex-direction 			: column;
+}
+
+.tabs{
+	display :none;
+}
+
+#tabs-1{
+	display:block;
+}
+
+.tabs_list_click {
+	background 				: #555555;
+	color 					: #ffffff;
+	cursor 					: default;
+}
+
+.tabs_list_click:hover {
+	background 				: #333333;
+}
+
+#volume_bar {
+	width 					: 544px;
+	float 					: left;
+	margin-top 				: 2px;
+	border-radius 			: 3px;
+}
+
+.div_cell_contents_text{
+	width 					: 600px;
+	height 					: 25px;
+	line-height 			: 25px;
+	float 					: left;
+}
+
+/* 아래로 radio 설정*/
+.div_radio_double_wrap {
+	background: #efefef; 
+	padding: 10px 0; 
+	font-weight: bold;
+	display 				: flex;
+	flex-direction 			: column;
+	justify-content 		: center;
+	text-indent 			: 10px;
+}
+
+.div_radio_double_wrap:last-child {
+	background 				: 0;
+	font-weight 			: normal;
+}
+
+.div_radio_wrap {
+	float 					: left;
+	margin-top 				: 10px;
+}
+
+.label_radio {
+	color 					: #999999;
+	padding 				: 0 15px;
+	border-radius 			: 3px;
+	border 					: 1px solid #D1D3D4;
+	width					: 160px;
+}
+
+.radio {
+	position 				:absolute;
+	top : 0px;
+	left : 0px;
+}
+
+/* hide input */
+input.radio:empty {
+	visibility 				: hidden;
+}
+
+/* style label */
+input.radio:empty ~ .label_radio {
+	position 				: relative;
+	float 					: left;
+	line-height 			: 30px;
+	text-indent 			: 30px;
+	cursor 					: pointer;
+	-webkit-user-select 	: none;
+	-moz-user-select 		: none;
+	-ms-user-select 		: none;
+	user-select 			: none;
+	background 				: #ffffff;
+}
+
+input.radio:empty ~ .label_radio:before {
+	position 				: absolute;
+	display 				: block;
+	top 					: 0;
+	bottom 					: 0;
+	left 					: 0;
+	content 				: '';
+	width 					: 30px;
+	background 				: #D1D3D4;
+	border-radius 			: 3px 0 0 3px;
+}
+
+/* toggle hover */
+input.radio:hover:not(:checked) ~ label:before {
+	content 				:'\2714';
+	text-indent 			: 10px;
+	color 					: #C2C2C2;
+}
+
+input.radio:hover:not(:checked) ~ label {
+	color 					: #555555;
+	border-color 			: #888888;
+}
+
+/* toggle on */
+input.radio:checked ~ .label_radio:before {
+	content 				:'\2714';
+	text-indent 			: 10px;
+	color 					: #ffffff;
+	background-color 		: #888888;
+}
+
+input.radio:checked ~ .label_radio {
+	color 					: #555555;
+	border-color 			: #888888;
+}
+/*radio 설정 종료*/
+
+select[id^="select_"] {
+	width				: 200px;			/* 원하는 너비설정 */
+	padding 			: 10px 10px;		/* 여백으로 높이 설정 */
+	font-family 		: inherit;			/* 폰트 상속 */
+	background 			: url("../img/select_arrow.jpg") no-repeat 95% 50%; /* 네이티브 화살표 대체 */
+	background-size		: 30px;
+	border 				: 1px solid #999;
+	border-radius		: 0px;				/* iOS 둥근모서리 제거 */
+	-webkit-appearance	: none;				/* 네이티브 외형 감추기 */
+	-moz-appearance		: none;
+	appearance			: none;
+}
+
+.textbox {
+	flex 				: 1;
+	display 			: flex;
+}
+
+.textbox label {
+	position 			: absolute;
+	top 				: 1px; 			/* input 요소의 border-top 설정값 만큼 */
+	left 				: 1px;			/* input 요소의 border-left 설정값 만큼 */
+	color 				: #999;
+	cursor 				: text;
+	display				: none;
+	padding-left		: 10px;
+}
+
+.textbox input[type="text"], .textbox input[type="password"] {
+	width 				: 0;
+	flex 				: 1;
+	height 				: auto;			/* 높이값 초기화 */
+	line-height			: normal;		/* line-height 초기화 */
+	padding 			: 10px 10px;	/* 원하는 여백 설정, 상하단 여백으로 높이를 조절 */
+	font-family 		: inherit; 		/* 폰트 상속 */
+	border 				: 1px solid #999;
+	border-radius 		: 0; 			/* iSO 둥근모서리 제거 */
+	outline-style 		: none; 		/* 포커스시 발생하는 효과 제거를 원한다면 */
+	-webkit-appearance 	: none; 		/* 브라우저별 기본 스타일링 제거 */
+	-moz-appearance 	: none;
+	appearance 			: none;
+}
+
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: flex;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #cccccc;
+	background: #eeeeee;
+	display: table-cell;
+	padding: 3px 10px;
+	text-align: center;
+	font-weight: bold;
+}
+.divTableData {
+	border: 1px solid #cccccc;
+	display: table-cell;
+	padding: 3px 10px;
+	text-align: center;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+.divActServerRunStat, .divActClientRunStat {
+	flex 		: 1 1 0;
+	height 		: 50px;
+	line-height	: 50px;
+	background 	: #0099CC;
+	color 		: black;
+	text-align 	: center;
+	font-weight	: bold;
+	opacity		: 0.7;
+}
+
+
+.divActServerStopStat, .divActClientStopStat {
+	flex 		: 1 1 0;
+	height 		: 50px;
+	line-height	: 50px;
+	background 	: #FF7070;
+	color 		: black;
+	text-align 	: center;
+	font-weight	: bold;
+	opacity		: 0.7;
+}
+
+.divServerInfo_act {
+	color: #808080;
+	background: rgba(0, 153, 204, 0.3);
+}
+
+.divServerInfo_deact {
+	color: #808080;
+	background: rgba(255, 112, 112, 0.3);
+}
+
+/*plugin css*/
+.eqWrap {
+    margin: 0 0 0 0;
+    overflow: hidden;
+    display: inline-block;
+    display: inline;
+    zoom: 1;
+}
+
+/* DSP control */
+.outputVolume {
+	flex 				: 1 1 0;
+	display 			: flex;
+}
+
+.eqCol_outputVolume {
+	flex 				: 1 1 0;
+	display 			: flex;
+	flex-direction 		: row-reverse;
+    margin: 0 10px;
+    border: 1px solid #989898;
+}
+
+.eqItem_outputVolume {
+    flex 				: 1 1 0;
+    height: 26px;
+    float: right;
+    background: #000000;
+    margin: 0 0 0 0;
+    opacity: 0.2;
+}
+
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(10) {
+    background: #B7EB03;
+    display: none;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(9) {
+    background: #B7EB03;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(8) {
+    background: #B2E20C;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(7) {
+    background: #93D200;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(6) {
+    background: #7DC401;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(5) {
+    background: #4DB401;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(4) {
+    background: #B2E20C;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(3) {
+    background: #FFB400;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(2) {
+    background: #EE6002;
+}
+.eqCol_outputVolume .eqItem_outputVolume:nth-child(1) {
+    background: #D52800;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 16px 10px;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 7px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #878787;
+  border-radius: 25px;
+  border: 0px solid #00ffff;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 0px solid #000000;
+  height: 39px;
+  width: 26px;
+  border-radius: 5px;
+  background: #efefef;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -16px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #fcfcfc;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 7px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #efefef;
+  border-radius: 25px;
+  border: 0px solid #00ffff;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 0px solid #000000;
+  height: 39px;
+  width: 26px;
+  border-radius: 5px;
+  background: #efefef;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 7px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #e2e2e2;
+  border: 0px solid #00ffff;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]::-ms-fill-upper {
+  background: #878787;
+  border: 0px solid #00ffff;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 0px solid #000000;
+  height: 39px;
+  width: 26px;
+  border-radius: 5px;
+  background: #efefef;
+  cursor: pointer;
+  height: 7px;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #878787;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #fcfcfc;
+}
+
+#div_server_run_pcm {
+	display 			: flex;
+	flex-direction 		: column;
+}
+
+.table_box_wrap {
+	display 			: flex;
+}
+
+.divTableCell:nth-child(3),
+.divTableCell:nth-child(5),
+.divTableData:nth-child(3),
+.divTableData:nth-child(5) {
+	display 			: none;
+}
+
+.divTableCell:nth-child(4),
+.divTableData:nth-child(4) {
+	flex 				: 1 1 0;
+}
+
+.divTableCell:nth-child(1),
+.divTableData:nth-child(1) {
+	width 				: 40px;
+}
+
+.divTableCell:nth-child(2),
+.divTableData:nth-child(2) {
+	flex 				: 2 1 0;
+}
+
+.slidershell,
+.sliderfill,
+.slidertrack,
+.sliderthumb,
+.slidervalue {
+	display 			: none;
+}
+
+.text_volume_value {
+	flex 				: 1 1 0;
+	height 				: 21px !important;
+	margin-left 		: 5px;
+}
+.divActServerRunStat,
+.divActServerStopStat,
+.divActClientRunStat,
+.divActClientStopStat {
+	flex 				: 1;
+	display 			: flex;
+} 
+
+.divActServerRunStat span,
+.divActServerStopStat span,
+.divActClientRunStat span,
+.divActClientStopStat span {
+	flex 				: 1;
+	overflow 			: hidden;
+	white-space    		: nowrap;
+	text-overflow 		: ellipsis;
+}
+

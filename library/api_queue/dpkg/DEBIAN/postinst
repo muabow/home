@@ -1,0 +1,18 @@
+#!/bin/sh
+echo "### Post-Install"
+
+# Library Path
+# for root user
+if [ `cat ~/.bashrc | grep /opt/interm/usr/lib | wc -l` -eq 0 ] 
+then 
+	echo "Add LD_LIBRARY_PATH for root user"
+	echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/interm/usr/lib" >> /root/.bashrc
+fi
+
+# for interm user
+if [ `cat /home/interm/.bashrc | grep /opt/interm/usr/lib | wc -l` -eq 0 ]
+then
+	echo "Add LD_LIBRARY_PATH for interm user"
+	echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/interm/usr/lib" >> /home/interm/.bashrc
+fi
+

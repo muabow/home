@@ -1,0 +1,15 @@
+{
+	"STAND ALONE": [
+	           "module_contact.php", 
+	           "module_serial232.php", 
+	           "module_serial422.php"
+	          ],
+	"INPUT CONNECTING": [
+	           "module_rm.php"
+	          ],
+	"OUTPUT CONNECTING": [
+	           "module_nc600.php", 
+	           "module_priority.php", 
+	           "module_source_file.php"
+	          ]
+}

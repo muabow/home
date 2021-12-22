@@ -1,0 +1,27 @@
+{
+	"source_storage_info" : {
+		"max_file_uploads" : 100,
+		"memory_limit" : "1024M",
+		"src_dir_list" : [
+			"/opt/interm/public_html/modules/source_file_management/html/data/audiofiles",
+			"/opt/interm/public_html/modules/chime_file_management/html/data/audiofiles",
+			"/opt/interm/public_html/modules/tts_file_management/html/data/audiofiles"
+		]	
+	},
+	"snd_interface_info" : {
+		"is_control_stop_list" : false,
+		"playback_stop_list" : [
+			{"module" : "audio_client",       "uri" : "audio_client_control",       "cmd_id" : "0x12"},
+			{"module" : "audio_player",       "uri" : "audio_player_control",       "cmd_id" : "0x12"},
+			{"module" : "source_file_client", "uri" : "source_file_client_control", "cmd_id" : "0x12"}
+		], 
+		"capture_stop_list" : [
+			{"module" : "audio_server",       "uri" : "audio_server_control",       "cmd_id" : "0x12"}
+		], 
+		"control_volume_list" : [
+			{"module" : "audio_client",       "uri" : "audio_client_control",       "cmd_id" : "0x13"},
+			{"module" : "audio_player",       "uri" : "audio_player_control",       "cmd_id" : "0x18"},
+			{"module" : "source_file_client", "uri" : "source_file_client_control", "cmd_id" : "0x13"}
+		]
+	}
+}

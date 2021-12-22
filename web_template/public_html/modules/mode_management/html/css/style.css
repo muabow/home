@@ -1,0 +1,183 @@
+hr {
+	border-top				: 1px dashed #C0C0C0;
+}
+
+#div_log_title {
+	padding-top				: 10px;
+	padding-bottom			: 10px;
+	font-weight				: bolder;
+	font-size				: 18px;
+}
+
+#div_contents {
+	padding					: 10px 10px 10px 10px;
+	font-size 				: 14px;
+}
+
+#div_contents_table {
+	margin-top 				: 10px;
+	width 					: 940px;
+	overflow 				: hidden;
+}
+
+.div_contents_cell {
+	margin 					: 10px 0 20px 0;
+	float 					: left;
+}
+
+.div_contents_title {
+	padding 				: 10px 10px 3px 3px;
+	font-size 				: 15px;
+	font-weight 			: bolder;
+	border-bottom 			: 1px solid #cccccc;
+}
+
+INPUT[type=text] {
+	vertical-align 			: 1px;
+    font-size 				: 12px;
+    height 					: 16px;
+    padding 				: 0 10px 0 10px;
+}
+
+INPUT[type=password] {
+    font-size 				: 12px;
+    height 					: 16px;
+    padding 				: 0 10px 0 10px;
+}
+
+.div_button {
+	background-color 		: #e7e7e7;
+	color 					: black;
+	border 					: 1px solid #aaaaaa;
+	text-align 				: center;
+	text-decoration 		: none;
+	display 				: inline-block;
+	cursor 					: pointer;
+	font-size 				: 12px;
+	width 					: 90px;
+	height 					: 23px;
+	line-height				: 23px;
+	border-radius			: 2px;
+	margin 					: 0 0 0 5px;
+	float 					: right;
+	transition-duration		: 0.4s;
+}
+
+.div_button:hover {
+	background-color 		: #7f7f7f;
+	color 					: white;
+}
+
+.div_contents_cell_line {
+	display 				: flex;
+	margin 					: 0px 10px 0px 10px;
+	width 					: 920px;
+	border-top 				: 1px solid #cccccc;
+	float 					: left;
+}
+
+.div_contents_cell_title {
+	order 					: 1;
+	display 				: flex;
+	align-items 			: center;
+	width 					: 250px;
+	padding 				: 10px 0 10px 10px;
+	margin 		 			: 0 10px 0 0;
+	background 				: #eeeeee;
+	float 					: left;
+	font-weight				: bolder;
+}
+
+.div_contents_cell_contents {
+	order 					: 2;
+	width 					: 630px;
+	padding 				: 10px 0 10px 0;
+	float 					: left;
+}
+
+.div_button_wrap {
+	padding 				: 5px 10px 5px 10px;
+	overflow 				: hidden;
+}
+
+.divTable{
+	display 				: table;
+	width 					: 880px;
+	margin-left 			: 20px;
+}
+.divTableRow {
+	display 				: table-row;
+}
+.divTableHeading {
+	background-color 		: #EEE;
+	display 				: table-header-group;
+}
+
+.divTableHead_left {
+	border 					: 1px solid #cccccc;
+	border-right			: 0px;
+	border-left 			: 0px;
+	display 				: table-cell;
+	padding 				: 3px 10px;
+	background-color 		: #eeeeee;
+	height					: 30px;
+	text-align 				: center;
+	vertical-align			: middle;
+	font-weight				: bolder;
+	font-size				: 12px;
+}
+.divTableHead {
+	border 					: 1px solid #cccccc;
+	border-right			: 0px;
+	display 				: table-cell;
+	padding 				: 3px 10px;
+	background-color 		: #eeeeee;
+	height					: 30px;
+	text-align 				: center;
+	vertical-align			: middle;
+	font-weight				: bolder;
+	font-size				: 12px;
+}
+
+.divTableCell {
+	border 					: 1px solid #cccccc;
+	border-top				: 0px;
+	border-right			: 0px;
+	display 				: table-cell;
+	padding 				: 3px 10px;
+	height					: 25px;
+	text-align 				: center;
+	vertical-align			: middle;
+	font-size				: 11px;
+}
+
+.divTableCell_left {
+	border 					: 1px solid #cccccc;
+	border-top				: 0px;
+	border-right			: 0px;
+	border-left 			: 0px;
+	display 				: table-cell;
+	padding 				: 3px 10px;
+	height					: 20px;
+	text-align 				: center;
+	vertical-align			: middle;
+	font-size				: 11px;
+}
+
+.divTableHeading {
+	background-color 		: #EEE;
+	display 				: table-header-group;
+	font-weight 			: bold;
+}
+.divTableFoot {
+	background-color 		: #EEE;
+	display 				: table-footer-group;
+	font-weight 			: bold;
+}
+.divTableBody {
+	display 				: table-row-group;
+}
+
+input[type="radio"], input[type="checkbox"] {
+	margin-top 				: 4px;
+}

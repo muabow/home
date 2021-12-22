@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interm_schedule>
+  <note date="2019-05-06">
+    <schedule>
+      <title>core_start</title>
+      <begin_date>2019-05-06</begin_date>
+      <end_date>2019-05-10</end_date>
+      <begin_h>10</begin_h>
+      <begin_m>00</begin_m>
+      <end_h>10</end_h>
+      <end_m>01</end_m>
+      <auto_yn/>
+      <equipment>127.0.0.1</equipment>
+      <allday>0</allday>
+      <repeat_everyday>1</repeat_everyday>
+      <action>Script</action>
+      <option/>
+      <color>rgb(61, 164, 183)</color>
+      <repeat>week</repeat>
+      <enable_week>every</enable_week>
+      <repeat_cnt>1</repeat_cnt>
+      <priority>1</priority>
+      <area>all</area>
+      <action_type>script</action_type>
+      <contents>/opt/interm/tts/ttskorplay.sh "코어시간이 시작되었습니다."</contents>
+      <created_at>id_001</created_at>
+      <dow/>
+    </schedule>
+  </note>
+</interm_schedule>

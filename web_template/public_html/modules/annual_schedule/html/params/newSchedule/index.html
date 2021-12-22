@@ -1,0 +1,122 @@
+<?php
+	$current_year = date('Y');
+?>
+
+
+<div id="copymonthly_dialog" title="copymonthly_dialog" style="display:none;">
+	<table cellpadding="0" cellspacing="0" border="0" height="50">
+	  <tr>
+	    <td><h4>Choose the month. (From)</h4></td>
+	  </tr>
+	</table>
+	<table cellpadding="0" cellspacing="0" border="0" height="100">
+	  <tr>
+	    <td>
+		  <select id="cm1_year" name="cm1_year">
+			<option value="<?php echo $current_year; ?>" selected="selected"><?php echo $current_year; ?></option>
+			<?php 
+			for($i = $current_year+1;$i < $current_year+5;$i++) {				
+			?>
+			<option value="<?=$i?>"><?=$i?></option>
+			<?php
+			}
+			?>
+		  </select>Year
+		</td>
+	    <td>
+		  <select id="cm1_month" name="cm1_month">
+			<?php 
+			for($j = 1;$j <= 12;$j++) {				
+			?>
+			<option value="<?=$j?>"><?=$j?></option>
+			<?php
+			}
+			?>
+		  </select>Month
+		</td>
+	  </tr>
+	</table>
+	<table cellpadding="0" cellspacing="0" border="0" height="30">
+	  <tr>
+	    <td valign="top">--------------------------------------------------</td>
+	  </tr>
+	</table>
+	<table cellpadding="0" cellspacing="0" border="0" height="50">
+	  <tr>
+	    <td><h4>Choose the month. (To)</h4></td>
+	  </tr>
+	</table>
+	<table cellpadding="0" cellspacing="0" border="0" height="100">
+	  <tr>
+	    <td>
+		  <select id="cm2_year" name="cm2_year">
+			<option value="<?php echo $current_year; ?>" selected="selected"><?php echo $current_year; ?></option>
+			<?php 
+			for($i = $current_year+1;$i < $current_year+5;$i++) {				
+			?>
+			<option value="<?=$i?>"><?=$i?></option>
+			<?php
+			}
+			?>
+		  </select>Year
+		</td>
+	    <td>
+		  <select id="cm2_month" name="cm2_month">
+			<?php 
+			for($j = 1;$j <= 12;$j++) {				
+			?>
+			<option value="<?=$j?>"><?=$j?></option>
+			<?php
+			}
+			?>
+		  </select>Month
+		</td>
+	  </tr>
+	</table>
+	<table cellpadding="0" cellspacing="0" border="0" height="50">
+	  <tr>
+	    <td><button onclick="copy_monthly();return false;">Execute Copy</button></td>
+	  </tr>
+	</table>
+</div>
+
+<div class="fw_title">
+	Scheduler &nbsp;<a href='index.html'><span style='color:#888; font-size:20px;'></span></a>
+</div> 
+<div style="width:<?php echo $width?>; margin:0 auto;">
+<?php
+include_once("fw_calendar.php");
+?>
+</div>
+<form name="upload_form" id="upload_form" enctype="multipart/form-data" action="fw_events.php?action=XMLUpload" method="POST"> 
+<input type="hidden" name="MAX_FILE_SIZE" value="30000" /> 
+<input id="userfile" name="userfile" type="file" style="display:none;" />
+</form>
+
+<script>
+$("#userfile").bind('change', function() {
+	var file = $("#userfile").val();
+
+	if (file != "") {
+		var fileExt = file.substring(file.lastIndexOf(".") + 1);
+		var reg = /xml/i; // 업로드 가능 확장자
+		
+		if (reg.test(fileExt) == false) {
+			alert("Upload XML files only."); 
+			return;
+		}
+	}
+	
+	$("#upload_form").submit();
+});
+
+function copy_monthly() {
+	var cm1_year = $("#cm1_year").val();
+	var cm1_month = $("#cm1_month").val();
+	var cm2_year = $("#cm2_year").val();
+	var cm2_month = $("#cm2_month").val();
+
+	location.href=('fw_events.php?action=copySchedule&cm1_year='+cm1_year+'&cm1_month='+cm1_month+'&cm2_year='+cm2_year+'&cm2_month='+cm2_month);
+
+}
+</script>

@@ -1,0 +1,6 @@
+Package: ethernetManager
+Version: 0.0.0.4+20201124-163704
+Architecture: armhf
+Maintainer: DooGyeong Han <dghan@inter-m.com>
+Description: Ethernet Manager
+

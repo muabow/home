@@ -1,0 +1,7 @@
+# 변경 및 추가 사항
+
+1. audio_setup
+ - server 측 alsa capture 후 ws 전송 부분 추가
+
+2. public_html
+ - test.php javascript / ws 관련 code

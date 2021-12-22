@@ -1,0 +1,352 @@
+hr {
+	border-top				: 1px dashed #C0C0C0;
+}
+
+#div_log_title {
+	padding-top				: 10px;
+	padding-bottom			: 10px;
+	font-weight				: bolder;
+	font-size				: 18px;
+}
+
+#div_contents {
+	padding					: 10px 10px 10px 10px;
+	font-size 				: 14px;
+}
+
+#div_contents_table {
+	margin-top 				: 10px;
+	width 					: 940px;
+	overflow 				: hidden;
+}
+
+.div_contents_cell {
+	margin 					: 10px 0 20px 0;
+	float 					: left;
+}
+
+.div_contents_title {
+	padding 				: 10px 10px 3px 3px;
+	font-size 				: 15px;
+	font-weight 			: bolder;
+	border-bottom 			: 1px solid #cccccc;
+}
+
+INPUT[type=text] {
+	vertical-align 			: 1px;
+    font-size 				: 12px;
+    height 					: 16px;
+    padding 				: 0 10px 0 10px;
+}
+
+INPUT[type=password] {
+    font-size 				: 12px;
+    height 					: 16px;
+    padding 				: 0 10px 0 10px;
+}
+
+.div_button {
+	background-color 		: #e7e7e7;
+	color 					: black;
+	border 					: 1px solid #aaaaaa;
+	text-align 				: center;
+	text-decoration 		: none;
+	display 				: inline-block;
+	cursor 					: pointer;
+	font-size 				: 12px;
+	width 					: 90px;
+	height 					: 23px;
+	line-height				: 23px;
+	border-radius			: 2px;
+	margin 					: 0 0 0 5px;
+	float 					: right;
+	transition-duration		: 0.4s;
+}
+
+.div_button:hover {
+	background-color 		: #7f7f7f;
+	color 					: white;
+}
+
+.div_contents_cell_line {
+	display 				: flex;
+	margin 					: 0px 10px 0px 10px;
+	width 					: 920px;
+	border-top 				: 1px solid #cccccc;
+	float 					: left;
+}
+
+.div_contents_cell_title {
+	order 					: 1;
+	display 				: flex;
+	align-items 			: center;
+	width 					: 250px;
+	padding 				: 10px 0 10px 10px;
+	margin 		 			: 0 10px 0 0;
+	background 				: #eeeeee;
+	float 					: left;
+	font-weight				: bolder;
+}
+
+.div_contents_cell_contents {
+	order 					: 2;
+	width 					: 630px;
+	padding 				: 10px 0 10px 0;
+	float 					: left;
+}
+
+.div_button_wrap {
+	height 					: 25px;
+	padding 				: 5px 10px 5px 10px;
+	overflow 				: hidden;
+}
+
+.div_systemCheckOperation {
+	width				: 80px;
+	height				: 25px;
+	border 				: 1px solid #666666;
+	border-radius		: 3px;
+	background 			: #aaaaaa;
+	cursor 				: pointer;
+}
+
+.span_systemCheckOn, .span_systemCheckOff {
+	width				: 40px;
+	height				: 25px;
+	line-height			: 25px;
+	float 				: left;
+	text-align 			: center;
+	font-weight 		: bolder;
+	font-size 			: 13px;
+	color 				: #ffffff;
+}
+
+.div_systemCheckToggle {
+	position 			: absolute;
+	width				: 38px;
+	height 				: 23px;
+	margin 				: 1px;
+	border-radius 		: 3px;
+	background 			: #ffffff;
+}
+
+.div_switchBackOnOff {
+	margin-left 		: 41px;
+}
+
+.div_switchBackground {
+	background 			: #4CAF50;
+}
+
+
+#select_accountList {
+	width				: 320px;			/* 원하는 너비설정 */
+	padding 			: 10px 10px;		/* 여백으로 높이 설정 */
+	font-family 		: inherit;			/* 폰트 상속 */
+	background 			: url("../img/select_arrow.jpg") no-repeat 95% 50%; /* 네이티브 화살표 대체 */
+	background-size		: 30px;
+	border 				: 1px solid #999;
+	border-radius		: 0px;				/* iOS 둥근모서리 제거 */
+	-webkit-appearance	: none;				/* 네이티브 외형 감추기 */
+	-moz-appearance		: none;
+	appearance			: none;
+}
+
+.select_systemCheck {
+	width				: 80px;			/* 원하는 너비설정 */
+	height				: 40px;
+	line-height			: 40px;
+	background 			: url("../img/select_arrow.jpg") no-repeat 95% 50%; /* 네이티브 화살표 대체 */
+	background-size		: 5px;
+	padding 			: 0px 10px;		/* 여백으로 높이 설정 */
+	font-family 		: inherit;			/* 폰트 상속 */
+	background-size		: 30px;
+	border 				: 1px solid #999;
+	border-radius		: 0px;				/* iOS 둥근모서리 제거 */
+	-webkit-appearance	: none;				/* 네이티브 외형 감추기 */
+	-moz-appearance		: none;
+	appearance			: none;
+}
+
+
+select::-ms-expand {
+	display 			: none;
+}
+
+.textbox {
+	position 			: relative;
+}
+
+.textbox label {
+	position 			: absolute;
+	top 				: 1px; 			/* input 요소의 border-top 설정값 만큼 */
+	left 				: 1px;			/* input 요소의 border-left 설정값 만큼 */
+	padding 			: 8px 10px;		/* input 요소의 padding 값 만큼 */
+	color 				: #999;
+	cursor 				: text;
+}
+
+.textbox input[type="text"], .textbox input[type="password"] {
+	width				: 298px;		/* 원하는 너비 설정 */
+	height 				: auto;			/* 높이값 초기화 */
+	line-height			: normal;		/* line-height 초기화 */
+	padding 			: 10px 10px;	/* 원하는 여백 설정, 상하단 여백으로 높이를 조절 */
+	font-family 		: inherit; 		/* 폰트 상속 */
+	border 				: 1px solid #999;
+	border-radius 		: 0; 			/* iSO 둥근모서리 제거 */
+	outline-style 		: none; 		/* 포커스시 발생하는 효과 제거를 원한다면 */
+	-webkit-appearance 	: none; 		/* 브라우저별 기본 스타일링 제거 */
+	-moz-appearance 	: none;
+	appearance 			: none;
+}
+
+.filebox_upgrade {
+	float:  			: left;
+}
+
+.filebox_upgrade input[type="file"] {
+	position 			: absolute;
+	width 	 			: 1px;
+	height 				: 1px;
+	padding 			: 0;
+	margin 				: -1px;
+	overflow 			: hidden;
+	clip 				: rect(0,0,0,0);
+	border 				: 0;
+}
+
+.filebox_upgrade label {
+	min-width			: 70px;
+	text-align			: center;
+	height				: 17px;
+	line-height 		: 17px;
+	display 			: inline-block;
+	padding 			: 9px 10px;
+	background-color 	: #e7e7e7;
+	color 				: black;
+	font-size 			: inherit;
+	line-height 		: normal;
+	vertical-align 		: middle;
+	cursor 				: pointer;
+	border 				: 1px solid #999;
+	border-radius 		: 5px;
+	transition-duration	: 0.4s;
+}
+
+.filebox_upgrade label:hover {
+	background-color 	: #7f7f7f;
+	color 				: white;
+}
+.filebox_upgrade .upload-name {
+	width				: 300px;
+	height				: 15px;
+	line-height 		: 15px;
+	display 			: inline-block;
+	padding 			: 10px 10px;	/* label의 패딩값과 일치 */
+	font-size			: inherit;
+	font-family			: inherit;
+	line-height			: normal;
+	vertical-align		: middle;
+	background-color 	: #ffffff;
+	border 				: 1px solid #999;
+	border-radius		: 5px;
+	-webkit-appearance 	: none;			/* 네이티브 외형 감추기 */
+	-moz-appearance 	: none;
+	appearance 			: none;
+}
+
+#div_uploadName {
+	float 				: left;
+	margin-right 		: 5px;
+}
+
+.container {
+	display 			: none;
+	width				: 150px;
+	float 				: left;
+	margin-left			: 10px;
+}
+.progress_outer {
+	border 				: 1px solid #999;
+	border-radius		: 5px;
+}
+
+.progress {
+	width 				: 0%;
+	background 			: linear-gradient(to left, #888, #eee);
+	height				: 35px;
+	line-height			: 35px;
+	border-radius		: 5px;
+	vertical-align		: middle;
+	text-align			: left;
+	color				: #5b5b54;
+	font-size			: 10px;
+	font-weight			: bolder;
+}
+
+.div_table {
+	display 			: flex;
+	flex-direction 		: column;
+}
+
+.div_table_title {
+	display 			: flex;
+	background-color 	: #eeeeee;
+	font-weight 		: bolder;
+}
+
+.div_table_cell {
+	border 				: 1px solid #cccccc;
+    border-right 		: 0;
+    border-bottom 		: 0;
+    flex 				: 1;
+    height 				: 40px;
+    line-height 		: 40px;
+    text-align 			: center;
+    vertical-align 		: middle;
+    font-size 			: 12px;
+}
+
+.div_table_cell:first-child {
+	border-left		 	: 0;
+}
+
+.div_table_row:last-child .div_table_cell {
+	border-bottom		: 1px solid #cccccc;
+}
+
+.div_table_row {
+	display 			: flex;
+}
+
+.table_cell_lock {
+	display 			: flex;
+	justify-content 	: center;
+	align-items			: center;
+}
+
+.table_cell_reset {
+	display 			: flex;
+	justify-content 	: center;
+	align-items			: center;
+}
+
+.lock_img {
+	margin 			: 0 5px 0 0;
+	width 			: 20px;
+	height 			: 20px;
+	background-image: url('../img/lock.svg');
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+}
+
+.unlock_img {
+	margin 			: 0 5px 0 0;
+	width 			: 20px;
+	height 			: 20px;
+	background-image: url('../img/unlock.svg');
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+}

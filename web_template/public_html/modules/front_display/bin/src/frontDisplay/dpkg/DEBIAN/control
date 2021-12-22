@@ -1,0 +1,6 @@
+Package: frontDisplay
+Version: 0.0.2.5+20201103-164153+ims
+Architecture: armhf
+Depends: libavmsapi
+Maintainer: DooGyeong Han <dghan@inter-m.com>
+Description: Front Display (OLED, SPI/GPIO)
