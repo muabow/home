@@ -1,3 +1,5 @@
+// sample.cpp
+
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
@@ -44,10 +46,11 @@ int main(void) {
 	
 	// SIGNAL case 설정, 각각의 SIGNAL은 errno.h 를 참조
 	// args(<SIGNAL>)
-	signal_handler.set_signal(SIGINT);
+	signal_handler.set_signal(SIGINT);  // set_signal 은 해당 signal 발생 시 동작
 	signal_handler.set_signal(SIGKILL);
 	signal_handler.set_signal(SIGTERM);
-	signal_handler.set_signal(SIGPIPE);
+	signal_handler.set_signal(SIGPIPE);	
+    signal_handler.set_ignore(SIGALRM); // set_ignore 는 해당 signal 발생 시 무시
 	
 	// signal event의 추가 처리를 위한 event handler 등록
 	// args(<function ptr>)
@@ -70,4 +73,3 @@ int main(void) {
 	
 	return 0;
 }
-
