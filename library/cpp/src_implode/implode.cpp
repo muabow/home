@@ -3,15 +3,15 @@
 
 using namespace std;
 
-string implode(const string glue, const vector<string> pieces) {
-    int     num_pieces = pieces.size();
+string implode(const string _glue, const vector<string> _pieces) {
+    int     num_pieces = _pieces.size();
     string  str_result = "";
 
     for( int idx = 0 ; idx < num_pieces ; idx++ ) {
-        str_result += pieces[idx];
+        str_result += _pieces[idx];
         
         if( idx < num_pieces - 1 ) {
-            str_result += glue;
+            str_result += _glue;
         }
     }
     

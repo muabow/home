@@ -8,7 +8,7 @@ vector<string> explode(const string _delimiter, const string _string) {
 	string token;
 	vector<string> v_list;
 
-	while ((pos_end = _string.find(_delimiter, pos_start)) != std::string::npos) {
+	while( (pos_end = _string.find(_delimiter, pos_start)) != std::string::npos ) {
 		token = _string.substr (pos_start, pos_end - pos_start);
 		pos_start = pos_end + delim_len;
 		v_list.push_back(token);
@@ -18,6 +18,7 @@ vector<string> explode(const string _delimiter, const string _string) {
 	
 	return v_list;
 }
+
 
 int main(void) {
     string str_num_list = "one_two_three";
