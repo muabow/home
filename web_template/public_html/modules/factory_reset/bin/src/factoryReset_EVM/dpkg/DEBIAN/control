@@ -1,6 +1,0 @@
-Package: factoryReset
-Version: 0.0.1.1+20201103-141449
-Architecture: armhf
-Depends: libavmsapi
-Maintainer: DooGyeong Han <dghan@inter-m.com>
-Description: Factory Reset (EVM)

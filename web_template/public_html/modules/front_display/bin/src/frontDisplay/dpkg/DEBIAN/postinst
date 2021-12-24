@@ -1,8 +1,0 @@
-#!/bin/sh
-
-# Run
-if [ -z $LD_LIBRARY_PATH ]
-then
-	export LD_LIBRARY_PATH=/opt/interm/usr/lib
-fi
-/opt/interm/bin/frontDisplay &

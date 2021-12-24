@@ -1,8 +1,0 @@
-{
-	"number": { "int": -1, "double": 1.1 },
-	"string": "hello world",
-	"bool": true,
-	"array": [0, 2, 4, 8, 10],
-	"null": null,
-	"json_array": [{ "int": 2, "double": 2.2 }, { "int": 3, "double": 3.3 }, { "int": 4, "double": 4.4 }]
-}

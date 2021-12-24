@@ -115,3 +115,4 @@ bool SignalHandler::is_term(void) {
 	return g_is_sig_term;
 	
 }
+

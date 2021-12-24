@@ -1,8 +1,0 @@
-{
-	"dev"	 : 0,
-	"factory": 1,
-	"admin"  : 2,
-	"setup"  : 3,
-	"user"   : 4,
-	"guest"  : 5
-}

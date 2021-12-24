@@ -1,6 +1,0 @@
-Package: libcommonWs
-Version: 0.0.0.1+20190918
-Architecture: armhf
-Maintainer: JunGi Pyo <pyop60@inter-m.com>
-Description: Shared library for compatible ws
-

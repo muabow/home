@@ -1,6 +1,0 @@
-Package: libcommonLog
-Version: 0.0.0.1+20190904
-Architecture: armhf
-Maintainer: JunGi Pyo <pyop60@inter-m.com>
-Description: Shared library for compatible log
-
