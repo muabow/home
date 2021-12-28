@@ -1,5 +1,5 @@
-#ifndef __API_SIGNAL_H__
-#define __API_SIGNAL_H__
+#ifndef __LIB_SIGNAL_H__
+#define __LIB_SIGNAL_H__
 
 #include <iostream>
 

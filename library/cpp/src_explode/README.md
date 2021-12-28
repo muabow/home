@@ -6,4 +6,4 @@ explode.cpp
 explode
 
 # sample file 컴파일 옵션 
- g++ -o explode explode.cpp -std=c++11
+g++ -o explode explode.cpp -std=c++11
