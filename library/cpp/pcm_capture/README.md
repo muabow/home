@@ -34,41 +34,41 @@ sudo apt-get install -y libasound2-dev
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"$(pwd)/usr/lib"
 
 # PCM Capture 실행 방법, -v (verbose)
- ./pcm_capture -v
-main::main() set print debug
-SignalHandler::set_debug_print() set debug print
-PCM_CaptureHandler::set_debug_print() is set on
-SignalHandler::set_signal() bind signal event [Interrupt]
-SignalHandler::set_signal() bind signal event [Killed]
-SignalHandler::set_signal() bind signal event [Terminated]
-SignalHandler::set_ignore() bind ignore event [Broken pipe]
-PCM_CaptureHandler::init() parameter information..
-PCM_CaptureHandler::init() parameter - period size      : [4]
-PCM_CaptureHandler::init() parameter - division periods : [4]
-PCM_CaptureHandler::init() parameter - chunk size       : [4096]
-PCM_CaptureHandler::init() parameter - sample rate      : [48000]
-PCM_CaptureHandler::init() parameter - channels         : [1]
-PCM_CaptureHandler::init() parameter - deivce name      : [default]
-PCM_CaptureHandler::set_pcm_driver() h/w params set information..
-PCM_CaptureHandler::set_pcm_driver() h/w params set - sample rate     : [48000]
-PCM_CaptureHandler::set_pcm_driver() h/w params set - channels        : [1]
-PCM_CaptureHandler::set_pcm_driver() h/w params set - pcm buffer time : [85333]
-PCM_CaptureHandler::set_pcm_driver() h/w params set - pcm period time : [21333]
-PCM_CaptureHandler::set_pcm_driver() h/w params set - pcm buffer size : [4096]
-PCM_CaptureHandler::set_pcm_driver() h/w params set - pcm period size : [1024]
-PCM_CaptureHandler::set_pcm_driver() h/w params set - pcm frame bytes : [2]
-PCM_CaptureHandler::set_pcm_driver() h/w params set - frame latency   : [0.042667]
-PCM_CaptureHandler::set_pcm_driver() h/w params set - pcm width       : [16]
-PCM_CaptureHandler::init() PCM device init success [default]
-PCM_CaptureHandler::set_queue_handler() set queue function
-PCM_CaptureHandler::run() create execute thread
-PCM_CaptureHandler::execute() start capture
-PCM_CaptureHandler::stop() join & wait audio thread term
-PCM_CaptureHandler::execute() stop capture PCM file...
-PCM_CaptureHandler::stop() Free PCM device [default]
-main::main() process has been terminated.
-PCM_CaptureHandler::PCM_CaptureHandler() instance destructed : [default]
-SignalHandler::SignalHandler() instance destructed
+ ./pcm_capture -v  
+main::main() set print debug  
+SignalHandler::set_debug_print() set debug print  
+PCM_CaptureHandler::set_debug_print() is set on  
+SignalHandler::set_signal() bind signal event [Interrupt]  
+SignalHandler::set_signal() bind signal event [Killed]  
+SignalHandler::set_signal() bind signal event [Terminated]  
+SignalHandler::set_ignore() bind ignore event [Broken pipe]  
+PCM_CaptureHandler::init() parameter information..  
+PCM_CaptureHandler::init() parameter - period size      : [4]  
+PCM_CaptureHandler::init() parameter - division periods : [4]  
+PCM_CaptureHandler::init() parameter - chunk size       : [4096]  
+PCM_CaptureHandler::init() parameter - sample rate      : [48000]  
+PCM_CaptureHandler::init() parameter - channels         : [1]  
+PCM_CaptureHandler::init() parameter - deivce name      : [default]  
+PCM_CaptureHandler::set_pcm_driver() h/w params set information..  
+PCM_CaptureHandler::set_pcm_driver() h/w params set - sample rate     : [48000]  
+PCM_CaptureHandler::set_pcm_driver() h/w params set - channels        : [1]  
+PCM_CaptureHandler::set_pcm_driver() h/w params set - pcm buffer time : [85333]  
+PCM_CaptureHandler::set_pcm_driver() h/w params set - pcm period time : [21333]  
+PCM_CaptureHandler::set_pcm_driver() h/w params set - pcm buffer size : [4096]  
+PCM_CaptureHandler::set_pcm_driver() h/w params set - pcm period size : [1024]  
+PCM_CaptureHandler::set_pcm_driver() h/w params set - pcm frame bytes : [2]  
+PCM_CaptureHandler::set_pcm_driver() h/w params set - frame latency   : [0.042667]  
+PCM_CaptureHandler::set_pcm_driver() h/w params set - pcm width       : [16]  
+PCM_CaptureHandler::init() PCM device init success [default]  
+PCM_CaptureHandler::set_queue_handler() set queue function  
+PCM_CaptureHandler::run() create execute thread  
+PCM_CaptureHandler::execute() start capture  
+PCM_CaptureHandler::stop() join & wait audio thread term  
+PCM_CaptureHandler::execute() stop capture PCM file...  
+PCM_CaptureHandler::stop() Free PCM device [default]  
+main::main() process has been terminated.  
+PCM_CaptureHandler::PCM_CaptureHandler() instance destructed : [default]  
+SignalHandler::SignalHandler() instance destructed  
 
 # 실행 종료 방법
 CTRL + C (SIGINT)
