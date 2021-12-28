@@ -2,26 +2,26 @@
 Ubuntu 16.04.3 LTS, kernel 4.4.0-78-generic, x86
 
 # Directory 구성
-src/pcm_capture.cpp
-src/main.cpp
-include/pcm_capture.h
-include/main.h
-usr/lib/libsignal.so
-usr/include/lib_signal.h
-makefile
-README.md
-pcm_capture
+src/pcm_capture.cpp  
+src/main.cpp  
+include/pcm_capture.h  
+include/main.h  
+usr/lib/libsignal.so  
+usr/include/lib_signal.h  
+makefile  
+README.md  
+pcm_capture  
 
 # ALSA capture device 확인 방법
-arecord -L
--------------------------------------------------------------------------------------
-default
-    Playback/recording through the PulseAudio sound server
-null
-    Discard all samples (playback) or generate zero samples (capture)
-pulse
-    PulseAudio Sound Server
--------------------------------------------------------------------------------------
+arecord -L  
+
+
+default  
+    Playback/recording through the PulseAudio sound server  
+null  
+    Discard all samples (playback) or generate zero samples (capture)  
+pulse  
+    PulseAudio Sound Server  
 
 # 컴파일 방법
 make clean ; make
