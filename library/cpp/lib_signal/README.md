@@ -14,4 +14,4 @@ sample.cpp
 g++ -o sample sample.cpp -I./include -L./ -lsignal -std=c++11 -lpthread
 
 # sample file 실행하기 위한 LD_LIBRARY_PATH 설정
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(pwd)
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(pwd) 
