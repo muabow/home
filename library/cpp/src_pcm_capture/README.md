@@ -1,7 +1,7 @@
 # 개발 환경
-Ubuntu 16.04.3 LTS, kernel 4.4.0-78-generic, x86
-
-# Directory 구성
+Ubuntu 16.04.3 LTS, kernel 4.4.0-78-generic, x86  
+  
+# Directory 구성  
 src/pcm_capture.cpp  
 src/main.cpp  
 include/pcm_capture.h  
@@ -11,11 +11,10 @@ usr/include/lib_signal.h
 makefile  
 README.md  
 pcm_capture  
-
-# ALSA capture device 확인 방법
+  
+# ALSA capture device 확인 방법  
 arecord -L  
-
-
+  
 default  
     Playback/recording through the PulseAudio sound server  
 null  
@@ -23,17 +22,17 @@ null
 pulse  
     PulseAudio Sound Server  
 
-# 컴파일 방법
-make clean ; make
-
-# libasound library 오류가 발생할 때
-sudo apt-get update -y
-sudo apt-get install -y libasound2-dev
-
-# LD_LIBRARY_PATH 설정
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"$(pwd)/usr/lib"
-
-# PCM Capture 실행 방법, -v (verbose)
+# 컴파일 방법  
+make clean ; make  
+  
+# libasound library 오류가 발생할 때  
+sudo apt-get update -y  
+sudo apt-get install -y libasound2-dev  
+  
+# LD_LIBRARY_PATH 설정  
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"$(pwd)/usr/lib"  
+  
+# PCM Capture 실행 방법, -v (verbose)  
  ./pcm_capture -v  
 main::main() set print debug  
 SignalHandler::set_debug_print() set debug print  
@@ -69,13 +68,13 @@ PCM_CaptureHandler::stop() Free PCM device [default]
 main::main() process has been terminated.  
 PCM_CaptureHandler::PCM_CaptureHandler() instance destructed : [default]  
 SignalHandler::SignalHandler() instance destructed  
-
-# 실행 종료 방법
-CTRL + C (SIGINT)
-
-# PCM 파일 생성 확인 (main.cpp 내에서 변경 가능)
-ls /tmp/capture.pcm 
-
-# PCM 파일 재생 방법 (main.cpp Capture parameter 참고)
-aplay -D default -t raw -r 48000 -c 1 -f S16_LE /tmp/capture.pcm
+  
+# 실행 종료 방법  
+CTRL + C (SIGINT)  
+  
+# PCM 파일 생성 확인 (main.cpp 내에서 변경 가능)  
+ls /tmp/capture.pcm  
+  
+# PCM 파일 재생 방법 (main.cpp Capture parameter 참고)  
+aplay -D default -t raw -r 48000 -c 1 -f S16_LE /tmp/capture.pcm  
 

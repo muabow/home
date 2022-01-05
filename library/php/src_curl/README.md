@@ -1,11 +1,11 @@
-개발환경  
-Ubuntu 16.04.3 LTS, kernel 4.4.0-78-generic, x86
+# 개발환경  
+Ubuntu 16.04.3 LTS, kernel 4.4.0-78-generic, x86  
   
-Directory 구성  
+# Directory 구성  
 func_curl.php  
 README.md  
   
-실행 방법  
+# 실행 방법  
 <?php  
 $json_data = json_decode(curl_request_data("<일반 IP 장치>"));  
 print_r($json_data);  
@@ -30,4 +30,3 @@ stdClass Object
 )  
 */  
 ?>  
-
