@@ -52,11 +52,11 @@
 					var result;
 
 					$.ajax({
-						type	: "POST",
-						url		: _target,
-						data	: _args,
-						async	: false,
-						success	: function(data) {
+						type    : "POST",
+						url     : _target,
+						data    : _args,
+						async   : false,
+						success : function(data) {
 							if( data != null ) {
 								result = data;
 							}
@@ -68,8 +68,8 @@
 
 				exec(_cmd) {
 					var submitArgs = "";
-					submitArgs += this.makeArgs("type",   "exec");
-					submitArgs += this.makeArgs("cmd",    _cmd);
+					submitArgs += this.makeArgs("type", "exec");
+					submitArgs += this.makeArgs("cmd",  _cmd);
 
 					return this.postArgs(this.path, submitArgs);
 				}
@@ -100,95 +100,93 @@
 
 		<style>
 			.div_page_title_name {
-				padding-top				: 10px;
-				padding-bottom			: 10px;
-				font-weight				: bolder;
-				font-size				: 18px;
+				padding-top             : 10px;
+				padding-bottom          : 10px;
+				font-weight             : bold;
+				font-size               : 18px;
 			}
 
 			.div_form_body {
-				margin-top				: 5px;
-				margin-right			: 10px;
-				border					: 1px solid #C0C0C0;
-				height					: 350px;
+				margin-top              : 5px;
+				margin-right            : 10px;
+				border                  : 1px solid #C0C0C0;
+				height                  : 350px;
 			}
 			
 			.div_form_body_top {
-				overflow-x 				: hidden;
-				overflow-y 				: auto;
-				height 					: 24px;
-				border 					: 1px solid #7c7c7c;
-				margin 					: 2px 2px 2px 2px;
-				font-size				: 14px;
-				padding-left			: 10px;
-				display 				: flex;
-				align-items				: center;
+				overflow-x              : hidden;
+				overflow-y              : auto;
+				height                  : 24px;
+				border                  : 1px solid #7c7c7c;
+				margin                  : 2px 2px 2px 2px;
+				font-size               : 14px;
+				padding-left            : 10px;
+				display                 : flex;
+				align-items             : center;
 			}
 
 			.div_form_body_frame {
-				overflow-x 				: hidden;
-				overflow-y 				: auto;
-				height 					: 316px;
-				border 					: 1px solid #7c7c7c;
-				margin 					: 2px 2px 2px 2px;
-				font-size				: 14px;
-				padding-left			: 10px;
+				overflow-x              : hidden;
+				overflow-y              : auto;
+				height                  : 316px;
+				border                  : 1px solid #7c7c7c;
+				margin                  : 2px 2px 2px 2px;
+				font-size               : 14px;
+				padding-left            : 10px;
 			}
 
 			.div_form_input {
-				display 				: flex;
-				margin-top				: 5px;
-				margin-right			: 10px;
-				border					: 1px solid #C0C0C0;
-				height					: 20px;
-				padding 				: 5px;
+				display                 : flex;
+				margin-top              : 5px;
+				margin-right            : 10px;
+				border                  : 1px solid #C0C0C0;
+				height                  : 20px;
+				padding                 : 5px;
 			}
 			
 			.div_form_input_text {
-				flex 					: 1 1 0;
+				flex                    : 1 1 0;
 			}
 
 			.div_form_history {
-				margin-top				: 5px;
-				margin-right			: 10px;
-				border					: 1px solid #C0C0C0;
-				height					: 100px;
+				margin-top              : 5px;
+				margin-right            : 10px;
+				border                  : 1px solid #C0C0C0;
+				height                  : 100px;
 			}
 
 			.div_form_history_frame {
-				overflow-x 				: hidden;
-				overflow-y 				: auto;
-				height					: 94px;
-				border 					: 1px solid #7c7c7c;
-				margin 					: 2px 2px 2px 2px;
-				font-size				: 14px;
-				padding-left			: 10px;
+				overflow-x              : hidden;
+				overflow-y              : auto;
+				height                  : 94px;
+				border                  : 1px solid #7c7c7c;
+				margin                  : 2px 2px 2px 2px;
+				font-size               : 14px;
+				padding-left            : 10px;
 			}
 
 			.div_button {
-				background-color 		: #e7e7e7;
-				border 					: 1px solid #7c7c7c;
-				color 					: black;
-				text-align 				: center;
-				text-decoration 		: none;
-				display 				: inline-block;
-				cursor 					: pointer;
-				font-size 				: 12px;
-				width 					: 100px;
-				border-radius			: 2px;
-				transition-duration		: 0.4s;
-				height					: 18px; 
-				line-height				: 18px; 
-				margin-left				: 10px; 
+				background-color        : #e7e7e7;
+				border                  : 1px solid #7c7c7c;
+				color                   : black;
+				text-align              : center;
+				text-decoration         : none;
+				display                 : inline-block;
+				cursor                  : pointer;
+				font-size               : 12px;
+				width                   : 100px;
+				border-radius           : 2px;
+				transition-duration     : 0.4s;
+				height                  : 18px; 
+				line-height             : 18px; 
+				margin-left             : 10px; 
 				-webkit-transition-duration: 0.4s; /* Safari */
 			}
 
 			.div_button:hover {
-				background-color 		: #7f7f7f;
-				color 					: white;
+				background-color        : #7f7f7f;
+				color                   : white;
 			}
-
-
 		</style>
 	</head>
 
