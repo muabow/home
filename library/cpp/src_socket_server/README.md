@@ -3,16 +3,16 @@ Ubuntu 16.04.3 LTS, kernel 4.4.0-78-generic, x86
   
 # Directory 구성  
 src  
-└ socket_server.cpp  
-└ src/main.cpp  
+└ /socket_server.cpp  
+└ /main.cpp  
 include  
-└ socket_server.h  
-└ include/main.h  
+└ /socket_server.h  
+└ /main.h  
 usr  
-└/lib  
-  └/libsignal.so  
+└ /lib  
+&nbsp;&nbsp;└ /libsignal.so  
 └/include  
-  └/lib_signal.h  
+&nbsp;&nbsp;└ /lib_signal.h  
 makefile  
 README.md  
 socket_server
