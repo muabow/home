@@ -8,7 +8,7 @@ $(TARGET): $(OBJS)
 	$(CC) -shared -o $@ $(OBJS)
 
 %.o: %.cpp
-	$(CC) $(FLAGS) -fPIC -I./include -c $< -o $@
+	$(CC) $(FLAGS) -fPIC -I./include -c $< -o $@ -std=c++11
 
 clean:
 	rm -Rf $(OBJS) $(TARGET)
