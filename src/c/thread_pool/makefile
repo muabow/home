@@ -1,5 +1,5 @@
 CC		= gcc
-CFLAGS  = -W -Wall -g
+CFLAGS  = -W -Wall -std=c90 -g
 LFLAGS  = -lpthread
 
 INCLUDES = -I./include
