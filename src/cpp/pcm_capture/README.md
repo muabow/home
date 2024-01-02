@@ -24,7 +24,10 @@ pulse
 
 # 컴파일 방법  
 make clean ; make  
-  
+
+# usr/lib/libsignal.so 문제
+home/library/cpp/lib_signal 에서 현재 시스템에서 rebuild 하여 사용
+
 # libasound library 오류가 발생할 때  
 sudo apt-get update -y  
 sudo apt-get install -y libasound2-dev  
